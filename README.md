@@ -10,6 +10,15 @@ tailoring in Nigeria, how are these intervention trajectories associated with
 observed malaria outcomes, and how does the 2026–2030 strategy respond to the
 remaining spatial distribution of malaria burden?
 
+## Study area
+
+**Nigeria — 36 states and the FCT, at Local Government Area level: 774 LGAs.**
+
+The LGA is the unit at which intervention packages are assigned under
+subnational tailoring, so it is the unit of analysis. Where outcome data are
+only published at state level, results are reported at state level (37 units)
+and labelled as such.
+
 ## Project
 
 Nigeria assigns malaria intervention packages to each of its 774 Local
@@ -51,10 +60,31 @@ The goal is a reproducible geospatial intelligence system, not a static map.
 ## Reproducing the extractions
 
 ```bash
-# fetch the sources listed in data/raw/README.md, then:
+git clone https://github.com/GentlePrince-ng/geodevproject.git
+cd geodevproject
+pip install pymupdf
 python scripts/extract_nmsp_annex1.py
+```
+
+The first script needs nothing else: it downloads the National Malaria
+Strategic Plan from its published URL, verifies the file against a recorded
+SHA-256 checksum, and rebuilds the 774-row intervention table. Expected output:
+
+```
+Source verified: SHA-256 2d363bae79bfca34...
+Rows extracted : 774 (expected 774)
+States/FCT     : 37
+Distinct mixes : 7
+```
+
+```bash
 python scripts/extract_nmis2025_parasitaemia.py
 ```
+
+The second needs the 2025 NMIS Key Indicators Report, which has no direct
+public download (see `docs/data-sources.md`). Without it the script explains
+where to get the report and exits cleanly — its extracted output is committed,
+so the data are in the repository either way.
 
 Requires Python 3 and `pymupdf`.
 

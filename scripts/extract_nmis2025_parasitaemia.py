@@ -76,7 +76,14 @@ def parse(pdf_path):
 
 def main():
     if not PDF.exists():
-        sys.exit(f"Source PDF not found: {PDF}\nSee docs/data-sources.md.")
+        print(f"Source PDF not present: {PDF.name}")
+        print("The 2025 NMIS Key Indicators Report is not available as a direct")
+        print("public download; it is released via NMEP and republished by Nigeria")
+        print("Health Watch behind a subscription. See docs/data-sources.md.")
+        print("")
+        print("The extracted output is committed at:")
+        print(f"  {OUT.relative_to(ROOT)}")
+        sys.exit(0)
 
     records, national = parse(PDF)
     rows = [records[s] for zone in ZONES for s in ZONES[zone]]

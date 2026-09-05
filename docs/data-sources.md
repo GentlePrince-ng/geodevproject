@@ -40,20 +40,28 @@ repository — only derived aggregates, if the licence permits.
 
 ---
 
-## To verify
+## Source verified, not yet downloaded
 
-| Dataset | Candidate source | Why unverified |
-|---|---|---|
-| Nigeria LGA boundaries | [GRID3 data portal](https://data.grid3.org/) (responds) | Specific boundary layer, vintage and licence not yet checked |
-| Nigeria state boundaries | GRID3, as above | As above |
-| Population data | GRID3 / WorldPop | Not yet checked |
-| Settlement extents | GRID3 | Optional; not yet checked |
-| Roads / accessibility | OpenStreetMap | Optional; not yet checked |
-| Environmental / climate | To be identified | Later-stage requirement |
+All links below returned HTTP 200 on 5 September 2026.
 
-The boundary layer matters more than its position in this table suggests: the
-NMSP LGA names will have to join to it, and the names are known to be
-non-standard (see `docs/data-feasibility.md`).
+| Dataset | Source | Format | Geographic unit | Licence |
+|---|---|---|---|---|
+| Nigeria subnational administrative boundaries (admin 0-2) | [HDX `cod-ab-nga`](https://data.humdata.org/dataset/cod-ab-nga) | Geodatabase, SHP, GeoJSON, XLSX | LGA (admin 2) and state (admin 1) | CC BY-IGO |
+| Nigeria operational LGA boundaries | [GRID3 Data Hub](https://data.grid3.org/datasets/GRID3::grid3-nga-operational-lga-boundaries/about) | Feature layer / SHP / GeoJSON | LGA (774 records) | CC BY 4.0 |
+| Nigeria operational state boundaries | [GRID3 Data Hub](https://data.grid3.org/datasets/GRID3::grid3-nga-operational-state-boundaries-/about) | Feature layer / SHP / GeoJSON | State | CC BY 4.0 |
+| Nigeria subnational population statistics | [HDX `cod-ps-nga`](https://data.humdata.org/dataset/cod-ps-nga) | XLSX / CSV | LGA | CC BY-IGO |
+| GRID3 NGA Settlement Extents v4.0 | [HDX](https://data.humdata.org/dataset/grid3-nga-settlement-extents-v4-0) | SHP / GeoJSON | Settlement | See dataset page |
+| GRID3 NGA Roads v1.0 | [HDX](https://data.humdata.org/dataset/grid3-nga-roads-v1-0) | SHP / GeoJSON | Network | See dataset page |
+
+**Why the OCHA Common Operational Dataset (`cod-ab-nga`) is listed first.** It
+is the boundary set most likely to carry admin-2 **PCODEs**, and the NMSP
+intervention table has no codes at all — only names, some of them
+non-standard. The join key is the central technical problem of Month 2, so the
+boundary source is chosen for its identifiers, not just its geometry. The
+GRID3 operational boundaries carry 774 LGA records and are the cross-check.
+
+Nothing in this group has been downloaded yet. Downloading and testing the
+name join is the first Month 2 task.
 
 ---
 

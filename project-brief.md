@@ -17,6 +17,28 @@ prevalence estimates, or projection to 2030.
 
 ---
 
+## The study area
+
+**Nigeria — all 36 states and the Federal Capital Territory, analysed at Local
+Government Area (LGA) level: 774 LGAs.**
+
+The LGA is the unit at which malaria intervention packages are actually
+assigned under subnational tailoring, so it is the natural unit of analysis.
+The 2021-2025 National Malaria Strategic Plan assigns a package to every one
+of the 774, and the extracted dataset in this repository covers all of them.
+
+The whole country is in scope rather than a single state or LGA because the
+research question is explicitly comparative: it asks how intervention
+strategies vary across the country and how that variation relates to burden.
+Restricting the study area to one LGA would remove the variation the question
+depends on.
+
+Where the outcome data force a coarser unit, analysis is reported at state
+level (37 units) and labelled as such. See *The honest problem with this
+question* below.
+
+---
+
 ## Why it matters
 
 Nigeria's malaria response increasingly uses subnational tailoring, recognising
@@ -45,29 +67,40 @@ strategies relate to that geography.
 
 ## The data I need
 
-| # | Dataset | Why it is needed | Status |
-|---|---|---|---|
-| 1 | 2021–2025 NMSP LGA-level intervention mix | Defines the historical intervention strategy | **Obtained and extracted** |
-| 2 | 2026–2030 NMSP subnational intervention strategy | Examines the strategic transition | **Not located** |
-| 3 | 2025 Nigeria Malaria Indicator Survey | Observed malaria outcome, end of strategy period | **Partially obtained** (state-level report only) |
-| 4 | 2021 Nigeria Malaria Indicator Survey | Baseline outcome, start of strategy period | Available, not yet requested |
-| 5 | Nigeria LGA boundaries | Spatial unit of analysis | To verify |
-| 6 | Nigeria state boundaries | Spatial reference and aggregation | To verify |
-| 7 | Population data | Denominators and population-weighted context | To verify |
-| 8 | Settlement extents | Spatial context, urban/rural | Optional, later |
-| 9 | Roads / accessibility | Context | Optional, later |
-| 10 | Environmental / climate data | Context and confounding | Later |
+Every dataset with its source link beside it. Status is as verified on
+5 September 2026; `docs/data-sources.md` holds the fuller register, including
+licences and rejected sources.
 
-Items 5–10 are not yet confirmed and are marked as such deliberately. See
-`docs/data-sources.md` for the source register.
+| # | Dataset | Source link | Geographic unit | Status |
+|---|---|---|---|---|
+| 1 | NMSP 2021-2025 LGA intervention mix (Annex 1) | [mesamalaria.org PDF](https://mesamalaria.org/wp-content/uploads/2024/07/NATIONAL-MALARIA-STRATEGIC-PLAN-Nigeria-2021-2025-Final.pdf) · [WHO mirror](https://extranet.who.int/cpcd/sites/default/files/public_file_repository/NGA_Nigeria_National-Strategic-Plan-Malaria_2021-2025.pdf) | LGA (774) | **Obtained and extracted** |
+| 2 | NMIS 2025 Key Indicators Report | [Nigeria Health Watch](https://nigeriahealthwatch.com/article/resources/malaria/nigeria-malaria-indicator-survey-nmis-key-indicators-2025/) | National, zone, state (37) | **Obtained and extracted** |
+| 3 | NMIS 2025 microdata | [DHS Program, Nigeria MIS 2025](https://dhsprogram.com/methodology/survey/survey-display-632.cfm) | Would be cluster/state | **Not yet released** — DHS page inactive |
+| 4 | NMIS 2021 microdata and cluster GPS | [DHS Program, Nigeria MIS 2021](https://dhsprogram.com/methodology/survey/survey-display-576.cfm) | Cluster, state, zone | Available; requires a DHS project request |
+| 5 | Nigeria LGA boundaries (admin 2) | [HDX: Nigeria Subnational Administrative Boundaries](https://data.humdata.org/dataset/cod-ab-nga) · [GRID3 operational LGA boundaries](https://data.grid3.org/datasets/GRID3::grid3-nga-operational-lga-boundaries/about) | LGA (774) | Source verified, not yet downloaded |
+| 6 | Nigeria state boundaries (admin 1) | [HDX, as above](https://data.humdata.org/dataset/cod-ab-nga) · [GRID3 operational state boundaries](https://data.grid3.org/datasets/GRID3::grid3-nga-operational-state-boundaries-/about) | State (37) | Source verified, not yet downloaded |
+| 7 | Subnational population | [HDX: Nigeria Subnational Population Statistics](https://data.humdata.org/dataset/cod-ps-nga) | LGA | Source verified, not yet downloaded |
+| 8 | Settlement extents | [GRID3 NGA Settlement Extents v4.0](https://data.humdata.org/dataset/grid3-nga-settlement-extents-v4-0) | Settlement | Optional, later |
+| 9 | Roads / accessibility | [GRID3 NGA Roads v1.0](https://data.humdata.org/dataset/grid3-nga-roads-v1-0) | Network | Optional, later |
+| 10 | NMSP 2026-2030 subnational strategy | No public source located | LGA or state | **Not located** — see below |
+| 11 | Environmental / climate covariates | Source not yet identified | Grid / LGA | Later-stage requirement |
+
+Two entries are deliberately without a link. Item 10 could not be found
+publicly as of 5 September 2026 and needs a direct enquiry to NMEP rather than
+more searching; item 11 is a later-stage requirement that has not been scoped.
+Neither has been given an invented URL.
 
 ---
 
 ## Data sources
 
-See `docs/data-sources.md` for the full register, including URLs, formats,
-geographic units and verification status. Every dataset claimed above either
-has a verified source or is explicitly marked *to verify* / *not located*.
+The table above carries a source link beside every dataset that has one. All
+links were checked and returned HTTP 200 on 5 September 2026.
+
+`docs/data-sources.md` holds the fuller register: formats, licences, the
+checksum proving the NMSP PDF matches its published original, access
+conditions for restricted survey microdata, and the sources that were checked
+and **rejected**.
 
 ---
 
