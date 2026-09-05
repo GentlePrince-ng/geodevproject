@@ -16,8 +16,10 @@ Usage:
 """
 
 import csv
+import hashlib
 import re
 import sys
+import urllib.request
 from pathlib import Path
 
 import fitz  # PyMuPDF
@@ -26,10 +28,40 @@ ROOT = Path(__file__).resolve().parents[1]
 PDF = ROOT / "data" / "raw" / "NMSP-Nigeria-2021-2025.pdf"
 OUT = ROOT / "data" / "processed" / "nmsp_2021_2025_lga_intervention_mix.csv"
 
+# The plan is a public document; fetch it if it is not already here so that a
+# fresh clone of this repository can reproduce the extraction unaided.
+SOURCE_URL = (
+    "https://mesamalaria.org/wp-content/uploads/2024/07/"
+    "NATIONAL-MALARIA-STRATEGIC-PLAN-Nigeria-2021-2025-Final.pdf"
+)
+SOURCE_SHA256 = "2d363bae79bfca347bff9692c16d589d39924e0ea3d724c91ede44d5992b7fe8"
+
 ANNEX_PAGES = range(74, 90)  # 0-indexed: pp. 75-90
 MIX_RE = re.compile(r"^CM\+")
 ICCM_VALUES = {"iCCM", "No iCCM"}
 EXPECTED_LGAS = 774
+
+
+def fetch_source():
+    """Download the NMSP PDF if absent, and verify it is the expected file."""
+    if not PDF.exists():
+        print("Source PDF not found locally. Downloading from:")
+        print(f"  {SOURCE_URL}")
+        PDF.parent.mkdir(parents=True, exist_ok=True)
+        req = urllib.request.Request(SOURCE_URL, headers={"User-Agent": "Mozilla/5.0"})
+        with urllib.request.urlopen(req) as response, PDF.open("wb") as fh:
+            fh.write(response.read())
+        print(f"Downloaded {PDF.stat().st_size:,} bytes")
+
+    digest = hashlib.sha256(PDF.read_bytes()).hexdigest()
+    if digest != SOURCE_SHA256:
+        print("WARNING: checksum mismatch.")
+        print(f"  expected {SOURCE_SHA256}")
+        print(f"  got      {digest}")
+        print("The published document may have been revised. Extraction continues,")
+        print("but page numbers and table layout should be re-checked.")
+    else:
+        print(f"Source verified: SHA-256 {digest[:16]}...")
 
 
 def extract(pdf_path):
@@ -60,8 +92,7 @@ def extract(pdf_path):
 
 
 def main():
-    if not PDF.exists():
-        sys.exit(f"Source PDF not found: {PDF}\nSee docs/data-sources.md for the download link.")
+    fetch_source()
 
     rows, problems = extract(PDF)
 
