@@ -1,0 +1,27 @@
+# Raw source documents are not committed: they are public downloads, and
+# scripts/ documents exactly where each one comes from and its checksum.
+data/raw/*
+!data/raw/README.md
+
+# Never commit restricted survey microdata or NHW project data
+data/restricted/
+*.DTA
+*.SAV
+*.dta
+*.sav
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# QGIS / geospatial scratch
+*.qgz~
+*.gpkg-shm
+*.gpkg-wal
+
+# OS
+Thumbs.db
+.DS_Store
