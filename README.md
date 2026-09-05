@@ -1,38 +1,52 @@
 # Nigeria Malaria SNT Spatial Intelligence System
 
-A GeoDev Lab Africa Cohort 1 project examining the spatial evolution of malaria
-intervention strategies under subnational tailoring (SNT) in Nigeria.
+A GeoDev Lab Africa Cohort 1 project mapping the geography of malaria
+intervention assignments under subnational tailoring (SNT) in Nigeria.
 
 ## Research question
 
-How have LGA-level malaria intervention strategies evolved under subnational
-tailoring in Nigeria, how are these intervention trajectories associated with
-observed malaria outcomes, and how does the 2026–2030 strategy respond to the
-remaining spatial distribution of malaria burden?
+> **Where in Nigeria does subnational tailoring actually assign different
+> malaria intervention mixes to neighbouring LGAs?**
 
 ## Study area
 
 **Nigeria — 36 states and the FCT, at Local Government Area level: 774 LGAs.**
 
 The LGA is the unit at which intervention packages are assigned under
-subnational tailoring, so it is the unit of analysis. Where outcome data are
-only published at state level, results are reported at state level (37 units)
-and labelled as such.
+subnational tailoring, so it is the unit of analysis. The whole country is in
+scope because the question is comparative by construction — it is about where
+assignments differ between adjacent places — but every measurement is local,
+between an LGA and the LGAs it touches.
+
+## The data
+
+Four datasets, each with its source link, in
+[`project-brief.md`](project-brief.md#the-data-i-need):
+
+| # | Dataset | Source |
+|---|---|---|
+| 1 | NMSP 2021–2025 LGA intervention mix | [mesamalaria.org](https://mesamalaria.org/wp-content/uploads/2024/07/NATIONAL-MALARIA-STRATEGIC-PLAN-Nigeria-2021-2025-Final.pdf) |
+| 2 | Nigeria LGA boundaries (admin 2) | [HDX `cod-ab-nga`](https://data.humdata.org/dataset/cod-ab-nga) |
+| 3 | Nigeria state boundaries (admin 1) | [HDX `cod-ab-nga`](https://data.humdata.org/dataset/cod-ab-nga) |
+| 4 | Nigeria subnational population | [HDX `cod-ps-nga`](https://data.humdata.org/dataset/cod-ps-nga) |
+
+Dataset 1 is obtained and extracted. All four links were checked and returned
+HTTP 200 on 5 September 2026.
 
 ## Project
 
 Nigeria assigns malaria intervention packages to each of its 774 Local
-Government Areas on the basis of epidemiological stratification. This project
-combines that intervention geography with observed malaria outcomes, boundary
-data and contextual layers to examine the relationship between intervention
-choice, intervention trajectories and observed burden.
+Government Areas on the basis of epidemiological stratification. Those
+assignments exist only as an alphabetical table in a strategic-plan annex, so
+their geography has never been laid out. This project maps it, then builds
+outward from there.
 
 The goal is a reproducible geospatial intelligence system, not a static map.
 
 ## What is in the repository so far
 
 ```
-├── project-brief.md                  Five-part project definition (Week 1 milestone)
+├── project-brief.md                  Question, study area, data, and what gets built
 ├── docs/
 │   ├── data-sources.md               Source register for every dataset claimed
 │   └── data-feasibility.md           Log of what was actually tested and found
@@ -54,8 +68,14 @@ The goal is a reproducible geospatial intelligence system, not a static map.
    Indicators Report publishes national, geopolitical-zone and state estimates
    only. The DHS Program page for the 2025 Nigeria MIS is not yet active, so no
    microdata are currently distributed.
-3. **This mismatch is the central methodological problem of the project**, and
-   it is stated openly in `project-brief.md` rather than assumed away.
+3. **That mismatch set the scope.** Thirty-seven outcome values cannot support
+   774 intervention-effect estimates, so the primary question is about the
+   intervention geography itself — fully answerable at LGA level, and needing no
+   outcome data. The outcome association becomes Question 2, to be reported at
+   the resolution the data actually support. Both are set out in
+   [`project-brief.md`](project-brief.md).
+4. **The 2026–2030 NMSP could not be located publicly**, so no source link is
+   claimed for it. That gap is recorded, not filled with a guess.
 
 ## Reproducing the extractions
 
