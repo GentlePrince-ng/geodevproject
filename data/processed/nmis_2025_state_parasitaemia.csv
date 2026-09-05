@@ -1,0 +1,38 @@
+state,zone,rdt_positive_pct,microscopy_positive_pct
+FCT - Abuja,North Central,31.9,7.9
+Benue,North Central,28.0,11.0
+Kogi,North Central,31.1,8.9
+Kwara,North Central,29.4,13.3
+Nasarawa,North Central,30.4,11.5
+Niger,North Central,44.8,18.4
+Plateau,North Central,13.5,2.8
+Adamawa,North East,39.0,17.9
+Bauchi,North East,50.7,17.8
+Borno,North East,18.8,6.9
+Gombe,North East,32.8,14.4
+Taraba,North East,52.3,23.2
+Yobe,North East,28.8,21.2
+Jigawa,North West,31.7,14.4
+Kaduna,North West,33.3,18.9
+Kano,North West,36.8,18.3
+Katsina,North West,44.8,17.0
+Kebbi,North West,47.8,18.4
+Sokoto,North West,50.1,26.7
+Zamfara,North West,63.9,29.0
+Akwa Ibom,South South,29.0,15.5
+Bayelsa,South South,24.2,13.9
+Cross River,South South,40.2,11.9
+Delta,South South,17.6,6.3
+Edo,South South,29.5,10.8
+Rivers,South South,20.1,8.8
+Abia,South East,35.2,11.6
+Anambra,South East,23.1,9.0
+Ebonyi,South East,67.7,31.2
+Enugu,South East,33.1,9.9
+Imo,South East,37.1,15.2
+Ekiti,South West,26.7,14.5
+Lagos,South West,1.5,2.6
+Ogun,South West,19.7,7.4
+Ondo,South West,25.5,13.4
+Osun,South West,36.5,12.9
+Oyo,South West,22.8,12.2
