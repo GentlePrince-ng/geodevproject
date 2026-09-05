@@ -1,9 +1,20 @@
 # Data source register
 
 Every dataset the project claims to need appears here with either a verified
-source or an explicit *to verify* / *not located* marker. No invented links.
+source or an explicit *not located* marker. No invented links.
 
-Verification status was checked on **5 September 2026**.
+The **four datasets required for the primary question** are all in the first and
+third sections below, each with a working link:
+
+1. NMSP 2021-2025 LGA intervention mix
+2. Nigeria LGA boundaries (admin 2)
+3. Nigeria state boundaries (admin 1)
+4. Nigeria subnational population
+
+Everything else in this file is either already-extracted supporting data, a
+later-phase dataset, or a source that was checked and rejected.
+
+All links were checked on **5 September 2026** and returned HTTP 200.
 
 ---
 
@@ -71,9 +82,10 @@ name join is the first Month 2 task.
 |---|---|
 | NMSP 2026–2030 subnational intervention strategy | **Not located as of 5 Sep 2026.** No public PDF found via general search. The document may not be published, may be restricted, or may exist only inside NMEP/Global Fund funding-request material. Needs a direct enquiry rather than more searching. |
 
-Until this is obtained, the third clause of the research question — how the
-2026–2030 strategy responds to remaining burden — cannot be answered. The first
-two clauses can.
+This document is **not** required for the primary question. It gates Question 3
+in `project-brief.md` — how the 2026-2030 strategy responds to remaining burden
+— which is deferred until the document can be obtained. It is listed here so
+that the gap is on the record rather than quietly dropped.
 
 ---
 
