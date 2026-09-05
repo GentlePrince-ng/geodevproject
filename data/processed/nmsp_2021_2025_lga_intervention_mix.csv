@@ -1,0 +1,775 @@
+state,lga,city,iccm,intervention_mix,source_page
+Abia,Aba North,Aba,No iCCM,CM+IPTp+UrbanLLINs+IPTi,75
+Abia,Aba South,Aba,No iCCM,CM+IPTp+UrbanLLINs+IPTi,75
+Abia,Arochukwu,,No iCCM,CM+IPTp+LLINs+IPTi,75
+Abia,Bende,,No iCCM,CM+IPTp+LLINs+IPTi,75
+Abia,Ikwuano,,No iCCM,CM+IPTp+LLINs+IPTi,75
+Abia,Isiala-Ngwa North,,No iCCM,CM+IPTp+LLINs+IPTi,75
+Abia,Isiala-Ngwa South,,No iCCM,CM+IPTp+LLINs+IPTi,75
+Abia,Isuikwato,,No iCCM,CM+IPTp+LLINs+IPTi,75
+Abia,Obi Nwa,Aba,No iCCM,CM+IPTp+UrbanLLINs+IPTi,75
+Abia,Ohafia,,No iCCM,CM+IPTp+LLINs+IPTi,75
+Abia,Osisioma Ngwa,Aba,No iCCM,CM+IPTp+UrbanLLINs+IPTi,75
+Abia,Ugwunagbo,Aba,No iCCM,CM+IPTp+UrbanLLINs+IPTi,75
+Abia,Ukwa East,,No iCCM,CM+IPTp+LLINs+IPTi,75
+Abia,Ukwa West,,No iCCM,CM+IPTp+LLINs+IPTi,75
+Abia,Umu-Neochi,,No iCCM,CM+IPTp+LLINs+IPTi,75
+Abia,Umuahia North,,No iCCM,CM+IPTp+LLINs+IPTi,75
+Abia,Umuahia South,,No iCCM,CM+IPTp+LLINs+IPTi,75
+Adamawa,Demsa,,No iCCM,CM+IPTp+PBO-LLINs+SMC,75
+Adamawa,Fufore,,No iCCM,CM+IPTp+PBO-LLINs+SMC,75
+Adamawa,Ganaye,,No iCCM,CM+IPTp+PBO-LLINs+IPTi,75
+Adamawa,Gireri,,No iCCM,CM+IPTp+PBO-LLINs+SMC,75
+Adamawa,Gombi,,No iCCM,CM+IPTp+PBO-LLINs+SMC,75
+Adamawa,Guyuk,,No iCCM,CM+IPTp+PBO-LLINs+SMC,75
+Adamawa,Hong,,No iCCM,CM+IPTp+PBO-LLINs+SMC,75
+Adamawa,Jada,,No iCCM,CM+IPTp+PBO-LLINs+SMC,75
+Adamawa,Lamurde,,No iCCM,CM+IPTp+PBO-LLINs+SMC,75
+Adamawa,Madagali,,No iCCM,CM+IPTp+PBO-LLINs+SMC,75
+Adamawa,Maiha,,No iCCM,CM+IPTp+PBO-LLINs+SMC,75
+Adamawa,Mayo-Belwa,,No iCCM,CM+IPTp+PBO-LLINs+SMC,75
+Adamawa,Michika,,No iCCM,CM+IPTp+PBO-LLINs+SMC,75
+Adamawa,Mubi North,,No iCCM,CM+IPTp+PBO-LLINs+SMC,75
+Adamawa,Mubi South,,No iCCM,CM+IPTp+PBO-LLINs+SMC,75
+Adamawa,Numan,,No iCCM,CM+IPTp+PBO-LLINs+SMC,75
+Adamawa,Shelleng,,No iCCM,CM+IPTp+PBO-LLINs+SMC,75
+Adamawa,Song,,No iCCM,CM+IPTp+PBO-LLINs+SMC,75
+Adamawa,Toungo,,iCCM,CM+IPTp+PBO-LLINs+IPTi,75
+Adamawa,Yola North,,No iCCM,CM+IPTp+PBO-LLINs+SMC,75
+Adamawa,Yola South,,No iCCM,CM+IPTp+PBO-LLINs+SMC,75
+Akwa Ibom,Abak,,No iCCM,CM+IPTp+LLINs+IPTi,75
+Akwa Ibom,Eastern Obolo,,No iCCM,CM+IPTp+LLINs+IPTi,75
+Akwa Ibom,Eket,,No iCCM,CM+IPTp+LLINs+IPTi,75
+Akwa Ibom,Esit Eket,,No iCCM,CM+IPTp+LLINs+IPTi,75
+Akwa Ibom,Essien Udim,,No iCCM,CM+IPTp+LLINs+IPTi,75
+Akwa Ibom,Etim Ekpo,,No iCCM,CM+IPTp+LLINs+IPTi,76
+Akwa Ibom,Etinan,,No iCCM,CM+IPTp+LLINs+IPTi,76
+Akwa Ibom,Ibeno,,No iCCM,CM+IPTp+LLINs+IPTi,76
+Akwa Ibom,Ibesikpo Asutan,,No iCCM,CM+IPTp+LLINs+IPTi,76
+Akwa Ibom,Ibiono Ibom,,No iCCM,CM+IPTp+LLINs+IPTi,76
+Akwa Ibom,Ika,,No iCCM,CM+IPTp+LLINs+IPTi,76
+Akwa Ibom,Ikono,,No iCCM,CM+IPTp+LLINs+IPTi,76
+Akwa Ibom,Ikot Abasi,,No iCCM,CM+IPTp+LLINs+IPTi,76
+Akwa Ibom,Ikot Ekpene,,No iCCM,CM+IPTp+LLINs+IPTi,76
+Akwa Ibom,Ini,,No iCCM,CM+IPTp+LLINs+IPTi,76
+Akwa Ibom,Itu,,No iCCM,CM+IPTp+LLINs+IPTi,76
+Akwa Ibom,Mbo,,No iCCM,CM+IPTp+LLINs+IPTi,76
+Akwa Ibom,Mkpat Enin,,No iCCM,CM+IPTp+LLINs+IPTi,76
+Akwa Ibom,Nsit Atai,,No iCCM,CM+IPTp+LLINs+IPTi,76
+Akwa Ibom,Nsit Ibom,,No iCCM,CM+IPTp+LLINs+IPTi,76
+Akwa Ibom,Nsit Ubium,,No iCCM,CM+IPTp+LLINs+IPTi,76
+Akwa Ibom,Obot Akara,,No iCCM,CM+IPTp+LLINs+IPTi,76
+Akwa Ibom,Okobo,,No iCCM,CM+IPTp+LLINs+IPTi,76
+Akwa Ibom,Onna,,No iCCM,CM+IPTp+LLINs+IPTi,76
+Akwa Ibom,Oron,,No iCCM,CM+IPTp+LLINs+IPTi,76
+Akwa Ibom,Oruk Anam,,No iCCM,CM+IPTp+LLINs+IPTi,76
+Akwa Ibom,Udung Uko,,No iCCM,CM+IPTp+LLINs+IPTi,76
+Akwa Ibom,Ukanafun,,No iCCM,CM+IPTp+LLINs+IPTi,76
+Akwa Ibom,Uruan,,No iCCM,CM+IPTp+LLINs+IPTi,76
+Akwa Ibom,Urue-Offong/Oruko,,No iCCM,CM+IPTp+LLINs+IPTi,76
+Akwa Ibom,Uyo,,No iCCM,CM+IPTp+LLINs+IPTi,76
+Anambra,Aguata,,No iCCM,CM+IPTp+LLINs+IPTi,76
+Anambra,Anambra East,,No iCCM,CM+IPTp+LLINs+IPTi,76
+Anambra,Anambra West,,No iCCM,CM+IPTp+LLINs+IPTi,76
+Anambra,Anaocha,,No iCCM,CM+IPTp+LLINs+IPTi,76
+Anambra,Awka North,,No iCCM,CM+IPTp+LLINs+IPTi,76
+Anambra,Awka South,,No iCCM,CM+IPTp+LLINs+IPTi,76
+Anambra,Ayamelum,,No iCCM,CM+IPTp+LLINs+IPTi,76
+Anambra,Dunukofia,,No iCCM,CM+IPTp+LLINs+IPTi,76
+Anambra,Ekwusigo,,No iCCM,CM+IPTp+LLINs+IPTi,76
+Anambra,Idemili North,,No iCCM,CM+IPTp+LLINs+IPTi,76
+Anambra,Idemili South,,No iCCM,CM+IPTp+LLINs+IPTi,76
+Anambra,Ihiala,,No iCCM,CM+IPTp+LLINs+IPTi,76
+Anambra,Njikoka,,No iCCM,CM+IPTp+LLINs+IPTi,76
+Anambra,Nnewi North,,No iCCM,CM+IPTp+LLINs+IPTi,76
+Anambra,Nnewi South,,No iCCM,CM+IPTp+LLINs+IPTi,76
+Anambra,Ogbaru,,No iCCM,CM+IPTp+LLINs+IPTi,76
+Anambra,Onitsha North,,No iCCM,CM+IPTp+LLINs+IPTi,76
+Anambra,Onitsha South,,No iCCM,CM+IPTp+LLINs+IPTi,76
+Anambra,Orumba North,,No iCCM,CM+IPTp+LLINs+IPTi,76
+Anambra,Orumba South,,No iCCM,CM+IPTp+LLINs+IPTi,76
+Anambra,Oyi,,No iCCM,CM+IPTp+LLINs+IPTi,76
+Bauchi,Alkaleri,,No iCCM,CM+IPTp+PBO-LLINs+SMC,76
+Bauchi,Bauchi,,No iCCM,CM+IPTp+PBO-LLINs+SMC,76
+Bauchi,Bogoro,,No iCCM,CM+IPTp+PBO-LLINs+SMC,77
+Bauchi,Damban,,No iCCM,CM+IPTp+PBO-LLINs+SMC,77
+Bauchi,Darazo,,No iCCM,CM+IPTp+PBO-LLINs+SMC,77
+Bauchi,Dass,,No iCCM,CM+IPTp+PBO-LLINs+SMC,77
+Bauchi,Gamawa,,No iCCM,CM+IPTp+PBO-LLINs+SMC,77
+Bauchi,Ganjuwa,,No iCCM,CM+IPTp+PBO-LLINs+SMC,77
+Bauchi,Giade,,No iCCM,CM+IPTp+PBO-LLINs+SMC,77
+Bauchi,Itas/Gadau,,No iCCM,CM+IPTp+PBO-LLINs+SMC,77
+Bauchi,Jama'are,,No iCCM,CM+IPTp+PBO-LLINs+SMC,77
+Bauchi,Katagum,,No iCCM,CM+IPTp+PBO-LLINs+SMC,77
+Bauchi,Kirfi,,No iCCM,CM+IPTp+PBO-LLINs+SMC,77
+Bauchi,Misau,,No iCCM,CM+IPTp+PBO-LLINs+SMC,77
+Bauchi,Ningi,,No iCCM,CM+IPTp+PBO-LLINs+SMC,77
+Bauchi,Shira,,No iCCM,CM+IPTp+PBO-LLINs+SMC,77
+Bauchi,Tafawa-Balewa,,No iCCM,CM+IPTp+PBO-LLINs+SMC,77
+Bauchi,Toro,,No iCCM,CM+IPTp+PBO-LLINs+SMC,77
+Bauchi,Warji,,No iCCM,CM+IPTp+PBO-LLINs+SMC,77
+Bauchi,Zaki,,No iCCM,CM+IPTp+PBO-LLINs+SMC,77
+Bayelsa,Brass,,No iCCM,CM+IPTp+LLINs+IPTi,77
+Bayelsa,Ekeremor,,No iCCM,CM+IPTp+LLINs+IPTi,77
+Bayelsa,Kolokuma/Opokuma,,No iCCM,CM+IPTp+LLINs+IPTi,77
+Bayelsa,Nembe,,No iCCM,CM+IPTp+LLINs+IPTi,77
+Bayelsa,Ogbia,,No iCCM,CM+IPTp+LLINs+IPTi,77
+Bayelsa,Sagbama,,No iCCM,CM+IPTp+LLINs+IPTi,77
+Bayelsa,Southern Ijaw,,No iCCM,CM+IPTp+LLINs+IPTi,77
+Bayelsa,Yenegoa,,No iCCM,CM+IPTp+LLINs+IPTi,77
+Benue,Ado,,No iCCM,CM+IPTp+LLINs+IPTi,77
+Benue,Agatu,,No iCCM,CM+IPTp+LLINs+SMC,77
+Benue,Apa,,No iCCM,CM+IPTp+LLINs+SMC,77
+Benue,Buruku,,No iCCM,CM+IPTp+LLINs+IPTi,77
+Benue,Gboko,,No iCCM,CM+IPTp+LLINs+IPTi,77
+Benue,Guma,,No iCCM,CM+IPTp+LLINs+SMC,77
+Benue,Gwer East,,No iCCM,CM+IPTp+LLINs+IPTi,77
+Benue,Gwer West,,No iCCM,CM+IPTp+LLINs+SMC,77
+Benue,Katsina-Ala,,No iCCM,CM+IPTp+LLINs+IPTi,77
+Benue,Konshisha,,No iCCM,CM+IPTp+LLINs+IPTi,77
+Benue,Kwande,,No iCCM,CM+IPTp+LLINs+IPTi,77
+Benue,Logo,,No iCCM,CM+IPTp+LLINs+SMC,77
+Benue,Makurdi,,No iCCM,CM+IPTp+LLINs+SMC,77
+Benue,Obi1,,No iCCM,CM+IPTp+PBO-LLINs+IPTi,77
+Benue,Ogbadibo,,No iCCM,CM+IPTp+LLINs+IPTi,77
+Benue,Ohimini,,No iCCM,CM+IPTp+LLINs+IPTi,77
+Benue,Oju,,No iCCM,CM+IPTp+LLINs+IPTi,77
+Benue,Okpokwu,,No iCCM,CM+IPTp+LLINs+IPTi,77
+Benue,Oturkpo,,No iCCM,CM+IPTp+PBO-LLINs+IPTi,77
+Benue,Tarka,,No iCCM,CM+IPTp+LLINs+SMC,77
+Benue,Ukum,,No iCCM,CM+IPTp+PBO-LLINs+SMC,77
+Benue,Ushongo,,No iCCM,CM+IPTp+LLINs+IPTi,77
+Benue,Vandeikya,,No iCCM,CM+IPTp+LLINs+IPTi,77
+Borno,Abadam,,iCCM,CM+IPTp+LLINs+SMC,78
+Borno,Askira/Uba,,No iCCM,CM+IPTp+PBO-LLINs+SMC,78
+Borno,Bama,,iCCM,CM+IPTp+LLINs+SMC,78
+Borno,Bayo,,No iCCM,CM+IPTp+PBO-LLINs+SMC,78
+Borno,Biu,,No iCCM,CM+IPTp+PBO-LLINs+SMC,78
+Borno,Chibok,,No iCCM,CM+IPTp+PBO-LLINs+SMC,78
+Borno,Damboa,,No iCCM,CM+IPTp+LLINs+SMC,78
+Borno,Dikwa,,No iCCM,CM+IPTp+PBO-LLINs+SMC,78
+Borno,Gubio,,iCCM,CM+IPTp+LLINs+SMC,78
+Borno,Guzamala,,No iCCM,CM+IPTp+LLINs+SMC,78
+Borno,Gwoza,,No iCCM,CM+IPTp+LLINs+SMC,78
+Borno,Hawul,,No iCCM,CM+IPTp+PBO-LLINs+SMC,78
+Borno,Jere,Maiduguri,No iCCM,CM+IPTp+UrbanLLINs+SMC,78
+Borno,Kaga,,iCCM,CM+IPTp+LLINs+SMC,78
+Borno,Kala/Balge,,No iCCM,CM+IPTp+LLINs+SMC,78
+Borno,Konduga,,No iCCM,CM+IPTp+LLINs+SMC,78
+Borno,Kukawa,,iCCM,CM+IPTp+LLINs+SMC,78
+Borno,Kwaya Kusar,,No iCCM,CM+IPTp+PBO-LLINs+SMC,78
+Borno,Mafa,,No iCCM,CM+IPTp+LLINs+SMC,78
+Borno,Magumeri,,iCCM,CM+IPTp+LLINs+SMC,78
+Borno,Maiduguri,Maiduguri,No iCCM,CM+IPTp+UrbanLLINs+SMC,78
+Borno,Marte,,No iCCM,CM+IPTp+LLINs+SMC,78
+Borno,Mobbar,,No iCCM,CM+IPTp+LLINs+SMC,78
+Borno,Monguno,,No iCCM,CM+IPTp+LLINs+SMC,78
+Borno,Ngala,,No iCCM,CM+IPTp+LLINs+SMC,78
+Borno,Nganzai,,No iCCM,CM+IPTp+LLINs+SMC,78
+Borno,Shani,,No iCCM,CM+IPTp+PBO-LLINs+SMC,78
+Cross River,Abi,,No iCCM,CM+IPTp+LLINs+IPTi,78
+Cross River,Akamkpa,,No iCCM,CM+IPTp+LLINs+IPTi,78
+Cross River,Akpabuyo,,No iCCM,CM+IPTp+LLINs+IPTi,78
+Cross River,Bakassi,,No iCCM,CM+IPTp+LLINs+IPTi,78
+Cross River,Bekwara,,No iCCM,CM+IPTp+LLINs+IPTi,78
+Cross River,Biase,,No iCCM,CM+IPTp+LLINs+IPTi,78
+Cross River,Boki,,No iCCM,CM+IPTp+LLINs+IPTi,78
+Cross River,Calabar South,,No iCCM,CM+IPTp+LLINs+IPTi,78
+Cross River,Calabar-Municipal,,No iCCM,CM+IPTp+LLINs+IPTi,78
+Cross River,Etung,,No iCCM,CM+IPTp+LLINs+IPTi,78
+Cross River,Ikom,,No iCCM,CM+IPTp+LLINs+IPTi,78
+Cross River,Obanliku,,No iCCM,CM+IPTp+LLINs+IPTi,78
+Cross River,Obubra,,No iCCM,CM+IPTp+LLINs+IPTi,78
+Cross River,Obudu,,No iCCM,CM+IPTp+LLINs+IPTi,78
+Cross River,Odukpani,,No iCCM,CM+IPTp+LLINs+IPTi,78
+Cross River,Ogoja,,No iCCM,CM+IPTp+LLINs+IPTi,78
+Cross River,Yakurr,,No iCCM,CM+IPTp+LLINs+IPTi,78
+Cross River,Yala,,No iCCM,CM+IPTp+LLINs+IPTi,78
+Delta,Aniocha North,,No iCCM,CM+IPTp+LLINs+IPTi,78
+Delta,Aniocha South,,No iCCM,CM+IPTp+LLINs+IPTi,78
+Delta,Bomadi,,No iCCM,CM+IPTp+LLINs+IPTi,78
+Delta,Burutu,,No iCCM,CM+IPTp+LLINs+IPTi,78
+Delta,Ethiope East,,No iCCM,CM+IPTp+LLINs+IPTi,79
+Delta,Ethiope West,,No iCCM,CM+IPTp+LLINs+IPTi,79
+Delta,Ika North East,,No iCCM,CM+IPTp+LLINs+IPTi,79
+Delta,Ika South,,No iCCM,CM+IPTp+LLINs+IPTi,79
+Delta,Isoko North,,No iCCM,CM+IPTp+LLINs+IPTi,79
+Delta,Isoko South,,No iCCM,CM+IPTp+LLINs+IPTi,79
+Delta,Ndokwa East,,No iCCM,CM+IPTp+LLINs+IPTi,79
+Delta,Ndokwa West,,No iCCM,CM+IPTp+LLINs+IPTi,79
+Delta,Okpe,Warri,No iCCM,CM+IPTp+UrbanLLINs+IPTi,79
+Delta,Oshimili North,,No iCCM,CM+IPTp+LLINs+IPTi,79
+Delta,Oshimili South,,No iCCM,CM+IPTp+LLINs+IPTi,79
+Delta,Patani,,No iCCM,CM+IPTp+LLINs+IPTi,79
+Delta,Sapele,,No iCCM,CM+IPTp+LLINs+IPTi,79
+Delta,Udu,Warri,No iCCM,CM+IPTp+UrbanLLINs+IPTi,79
+Delta,Ughelli North,Warri,No iCCM,CM+IPTp+UrbanLLINs+IPTi,79
+Delta,Ughelli South,,No iCCM,CM+IPTp+LLINs+IPTi,79
+Delta,Ukwuani,,No iCCM,CM+IPTp+LLINs+IPTi,79
+Delta,Uvwie,Warri,No iCCM,CM+IPTp+UrbanLLINs+IPTi,79
+Delta,Warri North,,No iCCM,CM+IPTp+LLINs+IPTi,79
+Delta,Warri South,Warri,No iCCM,CM+IPTp+UrbanLLINs+IPTi,79
+Delta,Warri South West,,No iCCM,CM+IPTp+LLINs+IPTi,79
+Ebonyi,Abakaliki,,No iCCM,CM+IPTp+PBO-LLINs+IPTi,79
+Ebonyi,Afikpo North,,No iCCM,CM+IPTp+LLINs+IPTi,79
+Ebonyi,Afikpo South,,No iCCM,CM+IPTp+PBO-LLINs+IPTi,79
+Ebonyi,Ebonyi,,No iCCM,CM+IPTp+PBO-LLINs+IPTi,79
+Ebonyi,Ezza North,,No iCCM,CM+IPTp+LLINs+IPTi,79
+Ebonyi,Ezza South,,No iCCM,CM+IPTp+PBO-LLINs+IPTi,79
+Ebonyi,Ikwo,,No iCCM,CM+IPTp+PBO-LLINs+IPTi,79
+Ebonyi,Ishielu,,No iCCM,CM+IPTp+LLINs+IPTi,79
+Ebonyi,Ivo,,No iCCM,CM+IPTp+LLINs+IPTi,79
+Ebonyi,Izzi,,No iCCM,CM+IPTp+PBO-LLINs+IPTi,79
+Ebonyi,Ohaozara,,No iCCM,CM+IPTp+PBO-LLINs+IPTi,79
+Ebonyi,Ohaukwu,,No iCCM,CM+IPTp+PBO-LLINs+IPTi,79
+Ebonyi,Onicha,,No iCCM,CM+IPTp+LLINs+IPTi,79
+Edo,Akoko-Edo,,No iCCM,CM+IPTp+LLINs+IPTi,79
+Edo,Egor,Benin City,No iCCM,CM+IPTp+UrbanLLINs+IPTi,79
+Edo,Esan Central,,No iCCM,CM+IPTp+LLINs+IPTi,79
+Edo,Esan North East,,No iCCM,CM+IPTp+LLINs+IPTi,79
+Edo,Esan South East,,No iCCM,CM+IPTp+LLINs+IPTi,79
+Edo,Esan West,,No iCCM,CM+IPTp+LLINs+IPTi,79
+Edo,Etsako Central,,No iCCM,CM+IPTp+LLINs+IPTi,79
+Edo,Etsako East,,No iCCM,CM+IPTp+LLINs+IPTi,79
+Edo,Etsako West,,No iCCM,CM+IPTp+LLINs+IPTi,79
+Edo,Igueben,,No iCCM,CM+IPTp+LLINs+IPTi,79
+Edo,Ikpoba-Okha,Benin City,No iCCM,CM+IPTp+UrbanLLINs+IPTi,79
+Edo,Oredo,Benin City,No iCCM,CM+IPTp+UrbanLLINs+IPTi,79
+Edo,Orhionmwon,,No iCCM,CM+IPTp+LLINs+IPTi,79
+Edo,Ovia North East,,No iCCM,CM+IPTp+LLINs+IPTi,79
+Edo,Ovia South West,,No iCCM,CM+IPTp+LLINs+IPTi,79
+Edo,Owan East,,No iCCM,CM+IPTp+LLINs+IPTi,80
+Edo,Owan West,,No iCCM,CM+IPTp+LLINs+IPTi,80
+Edo,Uhunmwonde,,No iCCM,CM+IPTp+LLINs+IPTi,80
+Ekiti,Ado Ekiti,,No iCCM,CM+IPTp+LLINs+IPTi,80
+Ekiti,Efon-Alayee,,No iCCM,CM+IPTp+LLINs+IPTi,80
+Ekiti,Ekiti East,,No iCCM,CM+IPTp+LLINs+IPTi,80
+Ekiti,Ekiti South West,,No iCCM,CM+IPTp+LLINs+IPTi,80
+Ekiti,Ekiti West,,No iCCM,CM+IPTp+LLINs+IPTi,80
+Ekiti,Emure,,No iCCM,CM+IPTp+LLINs+IPTi,80
+Ekiti,Gboyin,,No iCCM,CM+IPTp+LLINs+IPTi,80
+Ekiti,Idosi-Osi,,No iCCM,CM+IPTp+LLINs+IPTi,80
+Ekiti,Ijero,,No iCCM,CM+IPTp+LLINs+IPTi,80
+Ekiti,Ikere,,No iCCM,CM+IPTp+LLINs+IPTi,80
+Ekiti,Ikole,,No iCCM,CM+IPTp+LLINs+IPTi,80
+Ekiti,Ilemeji,,No iCCM,CM+IPTp+LLINs+IPTi,80
+Ekiti,Irepodun/Ifelodun,,No iCCM,CM+IPTp+LLINs+IPTi,80
+Ekiti,Ise/Orun,,No iCCM,CM+IPTp+LLINs+IPTi,80
+Ekiti,Moba,,No iCCM,CM+IPTp+LLINs+IPTi,80
+Ekiti,Oye,,No iCCM,CM+IPTp+LLINs+IPTi,80
+Enugu,Aninri,,No iCCM,CM+IPTp+LLINs+IPTi,80
+Enugu,Awgu,,No iCCM,CM+IPTp+LLINs+IPTi,80
+Enugu,Enugu East,Enugu,No iCCM,CM+IPTp+UrbanLLINs+IPTi,80
+Enugu,Enugu North,Enugu,No iCCM,CM+IPTp+UrbanLLINs+IPTi,80
+Enugu,Enugu South,Enugu,No iCCM,CM+IPTp+UrbanLLINs+IPTi,80
+Enugu,Ezeagu,,No iCCM,CM+IPTp+LLINs+IPTi,80
+Enugu,Igbo-Etiti,,No iCCM,CM+IPTp+LLINs+IPTi,80
+Enugu,Igbo-Eze North,,No iCCM,CM+IPTp+LLINs+IPTi,80
+Enugu,Igbo-Eze South,,No iCCM,CM+IPTp+LLINs+IPTi,80
+Enugu,Isi-Uzo,,No iCCM,CM+IPTp+LLINs+IPTi,80
+Enugu,Nkanu East,,No iCCM,CM+IPTp+LLINs+IPTi,80
+Enugu,Nkanu West,,No iCCM,CM+IPTp+LLINs+IPTi,80
+Enugu,Nsukka,,No iCCM,CM+IPTp+LLINs+IPTi,80
+Enugu,Oji-River,,No iCCM,CM+IPTp+LLINs+IPTi,80
+Enugu,Udenu,,No iCCM,CM+IPTp+LLINs+IPTi,80
+Enugu,Udi,,No iCCM,CM+IPTp+LLINs+IPTi,80
+Enugu,Uzo-Uwani,,No iCCM,CM+IPTp+LLINs+IPTi,80
+Federal Capital Territory,Abaji,,No iCCM,CM+IPTp+LLINs+SMC,80
+Federal Capital Territory,Abuja Municipal,Abuja,No iCCM,CM+IPTp+UrbanLLINs+SMC,80
+Federal Capital Territory,Bwari,,No iCCM,CM+IPTp+LLINs+SMC,80
+Federal Capital Territory,Gwagwalada,,No iCCM,CM+IPTp+LLINs+SMC,80
+Federal Capital Territory,Kuje,,No iCCM,CM+IPTp+LLINs+SMC,80
+Federal Capital Territory,Kwali,,No iCCM,CM+IPTp+LLINs+SMC,80
+Gombe,Akko,,No iCCM,CM+IPTp+PBO-LLINs+SMC,80
+Gombe,Balanga,,No iCCM,CM+IPTp+PBO-LLINs+SMC,80
+Gombe,Billiri,,No iCCM,CM+IPTp+PBO-LLINs+SMC,80
+Gombe,Dukku,,No iCCM,CM+IPTp+PBO-LLINs+SMC,80
+Gombe,Funakaye,,No iCCM,CM+IPTp+PBO-LLINs+SMC,80
+Gombe,Gombe,,No iCCM,CM+IPTp+PBO-LLINs+SMC,80
+Gombe,Kaltungo,,No iCCM,CM+IPTp+PBO-LLINs+SMC,80
+Gombe,Kwami,,No iCCM,CM+IPTp+PBO-LLINs+SMC,81
+Gombe,Nafada,,No iCCM,CM+IPTp+LLINs+SMC,81
+Gombe,Shomgom,,No iCCM,CM+IPTp+PBO-LLINs+SMC,81
+Gombe,Yamaltu/Deba,,No iCCM,CM+IPTp+PBO-LLINs+SMC,81
+Imo,Aboh-Mbaise,,No iCCM,CM+IPTp+LLINs+IPTi,81
+Imo,Ahiazu-Mbaise,,No iCCM,CM+IPTp+LLINs+IPTi,81
+Imo,Ehime-Mbano,,No iCCM,CM+IPTp+LLINs+IPTi,81
+Imo,Ezinihitte,,No iCCM,CM+IPTp+LLINs+IPTi,81
+Imo,Ideato North,,No iCCM,CM+IPTp+LLINs+IPTi,81
+Imo,Ideato South,,No iCCM,CM+IPTp+LLINs+IPTi,81
+Imo,Ihitte/Uboma,,No iCCM,CM+IPTp+LLINs+IPTi,81
+Imo,Ikeduru,,No iCCM,CM+IPTp+LLINs+IPTi,81
+Imo,Isiala Mbano,,No iCCM,CM+IPTp+LLINs+IPTi,81
+Imo,Isu,,No iCCM,CM+IPTp+LLINs+IPTi,81
+Imo,Mbaitoli,,No iCCM,CM+IPTp+LLINs+IPTi,81
+Imo,Ngor-Okpala,,No iCCM,CM+IPTp+LLINs+IPTi,81
+Imo,Njaba,,No iCCM,CM+IPTp+LLINs+IPTi,81
+Imo,Nkwerre,,No iCCM,CM+IPTp+LLINs+IPTi,81
+Imo,Nwangele,,No iCCM,CM+IPTp+LLINs+IPTi,81
+Imo,Obowo,,No iCCM,CM+IPTp+LLINs+IPTi,81
+Imo,Oguta,,No iCCM,CM+IPTp+LLINs+IPTi,81
+Imo,Ohaji/Egbema,,No iCCM,CM+IPTp+LLINs+IPTi,81
+Imo,Okigwe,,No iCCM,CM+IPTp+LLINs+IPTi,81
+Imo,Orlu,,No iCCM,CM+IPTp+LLINs+IPTi,81
+Imo,Orsu,,No iCCM,CM+IPTp+LLINs+IPTi,81
+Imo,Oru East,,No iCCM,CM+IPTp+LLINs+IPTi,81
+Imo,Oru West,,No iCCM,CM+IPTp+LLINs+IPTi,81
+Imo,Owerri North,,No iCCM,CM+IPTp+LLINs+IPTi,81
+Imo,Owerri West,,No iCCM,CM+IPTp+LLINs+IPTi,81
+Imo,Owerri-Municipal,,No iCCM,CM+IPTp+LLINs+IPTi,81
+Imo,Unuimo,,No iCCM,CM+IPTp+LLINs+IPTi,81
+Jigawa,Auyo,,No iCCM,CM+IPTp+PBO-LLINs+SMC,81
+Jigawa,Babura,,No iCCM,CM+IPTp+PBO-LLINs+SMC,81
+Jigawa,Biriniwa,,No iCCM,CM+IPTp+LLINs+SMC,81
+Jigawa,Birni Kudu,,No iCCM,CM+IPTp+PBO-LLINs+SMC,81
+Jigawa,Buji,,No iCCM,CM+IPTp+PBO-LLINs+SMC,81
+Jigawa,Dutse,,No iCCM,CM+IPTp+PBO-LLINs+SMC,81
+Jigawa,Gagarawa,,No iCCM,CM+IPTp+PBO-LLINs+SMC,81
+Jigawa,Garki,,No iCCM,CM+IPTp+PBO-LLINs+SMC,81
+Jigawa,Gumel,,No iCCM,CM+IPTp+PBO-LLINs+SMC,81
+Jigawa,Guri,,No iCCM,CM+IPTp+PBO-LLINs+SMC,81
+Jigawa,Gwaram,,No iCCM,CM+IPTp+PBO-LLINs+SMC,81
+Jigawa,Gwiwa,,No iCCM,CM+IPTp+PBO-LLINs+SMC,81
+Jigawa,Hadejia,,No iCCM,CM+IPTp+PBO-LLINs+SMC,81
+Jigawa,Jahun,,No iCCM,CM+IPTp+PBO-LLINs+SMC,81
+Jigawa,Kafin Hausa,,No iCCM,CM+IPTp+PBO-LLINs+SMC,81
+Jigawa,Kaugama,,No iCCM,CM+IPTp+LLINs+SMC,81
+Jigawa,Kazaure,,No iCCM,CM+IPTp+PBO-LLINs+SMC,81
+Jigawa,Kiri Kasamma,,No iCCM,CM+IPTp+LLINs+SMC,81
+Jigawa,Maigatari,,No iCCM,CM+IPTp+LLINs+SMC,82
+Jigawa,Malam Madori,,No iCCM,CM+IPTp+PBO-LLINs+SMC,82
+Jigawa,Miga,,No iCCM,CM+IPTp+PBO-LLINs+SMC,82
+Jigawa,Ringim,,No iCCM,CM+IPTp+PBO-LLINs+SMC,82
+Jigawa,Roni,,No iCCM,CM+IPTp+PBO-LLINs+SMC,82
+Jigawa,Sule-Tankarkar,,No iCCM,CM+IPTp+PBO-LLINs+SMC,82
+Jigawa,Taura,,No iCCM,CM+IPTp+PBO-LLINs+SMC,82
+Jigawa,Yankwashi,,No iCCM,CM+IPTp+PBO-LLINs+SMC,82
+Jigawa,kiyawa,,No iCCM,CM+IPTp+PBO-LLINs+SMC,82
+Kaduna,Birnin-Gwari,,No iCCM,CM+IPTp+PBO-LLINs+SMC,82
+Kaduna,Chikun,Kaduna,No iCCM,CM+IPTp+UrbanLLINs+SMC,82
+Kaduna,Giwa,,No iCCM,CM+IPTp+PBO-LLINs+SMC,82
+Kaduna,Igabi,,No iCCM,CM+IPTp+PBO-LLINs+SMC,82
+Kaduna,Ikara,,No iCCM,CM+IPTp+PBO-LLINs+SMC,82
+Kaduna,Jaba,,No iCCM,CM+IPTp+LLINs+SMC,82
+Kaduna,Jema'a,,No iCCM,CM+IPTp+PBO-LLINs+SMC,82
+Kaduna,Kachia,,No iCCM,CM+IPTp+PBO-LLINs+SMC,82
+Kaduna,Kaduna North,Kaduna,No iCCM,CM+IPTp+UrbanLLINs+SMC,82
+Kaduna,Kaduna South,Kaduna,No iCCM,CM+IPTp+UrbanLLINs+SMC,82
+Kaduna,Kagarko,,No iCCM,CM+IPTp+LLINs+SMC,82
+Kaduna,Kajuru,,No iCCM,CM+IPTp+PBO-LLINs+SMC,82
+Kaduna,Kaura,,No iCCM,CM+IPTp+LLINs+SMC,82
+Kaduna,Kauru,,No iCCM,CM+IPTp+PBO-LLINs+SMC,82
+Kaduna,Kubau,,No iCCM,CM+IPTp+PBO-LLINs+SMC,82
+Kaduna,Kudan,,No iCCM,CM+IPTp+PBO-LLINs+SMC,82
+Kaduna,Lere,,No iCCM,CM+IPTp+LLINs+SMC,82
+Kaduna,Markafi,,No iCCM,CM+IPTp+PBO-LLINs+SMC,82
+Kaduna,Sabon-Gari,Zaria,No iCCM,CM+IPTp+UrbanLLINs+SMC,82
+Kaduna,Sanga,,No iCCM,CM+IPTp+PBO-LLINs+SMC,82
+Kaduna,Soba,,No iCCM,CM+IPTp+LLINs+SMC,82
+Kaduna,Zango-Kataf,,No iCCM,CM+IPTp+PBO-LLINs+SMC,82
+Kaduna,Zaria,Zaria,No iCCM,CM+IPTp+UrbanLLINs+SMC,82
+Kano,Ajingi,,No iCCM,CM+IPTp+LLINs+SMC,82
+Kano,Albasu,,No iCCM,CM+IPTp+LLINs+SMC,82
+Kano,Bagwai,,No iCCM,CM+IPTp+LLINs+SMC,82
+Kano,Bebeji,,No iCCM,CM+IPTp+LLINs+SMC,82
+Kano,Bichi,,No iCCM,CM+IPTp+PBO-LLINs+SMC,82
+Kano,Bunkure,,No iCCM,CM+IPTp+LLINs+SMC,82
+Kano,Dala,Kano,No iCCM,CM+IPTp+UrbanLLINs+SMC,82
+Kano,Dambatta,,No iCCM,CM+IPTp+LLINs+SMC,82
+Kano,Dawakin Kudu,,No iCCM,CM+IPTp+LLINs+SMC,82
+Kano,Dawakin Tofa,,No iCCM,CM+IPTp+PBO-LLINs+SMC,82
+Kano,Doguwa,,No iCCM,CM+IPTp+PBO-LLINs+SMC,82
+Kano,Fagge,Kano,No iCCM,CM+IPTp+UrbanLLINs+SMC,82
+Kano,Gabasawa,,No iCCM,CM+IPTp+LLINs+SMC,82
+Kano,Garko,,No iCCM,CM+IPTp+LLINs+SMC,82
+Kano,Garum Mallam,,No iCCM,CM+IPTp+LLINs+SMC,82
+Kano,Gaya,,No iCCM,CM+IPTp+LLINs+SMC,82
+Kano,Gezawa,,No iCCM,CM+IPTp+LLINs+SMC,82
+Kano,Gwale,Kano,No iCCM,CM+IPTp+UrbanLLINs+SMC,83
+Kano,Gwarzo,,No iCCM,CM+IPTp+PBO-LLINs+SMC,83
+Kano,Kabo,,No iCCM,CM+IPTp+LLINs+SMC,83
+Kano,Kano Municipal,Kano,No iCCM,CM+IPTp+UrbanLLINs+SMC,83
+Kano,Karaye,,No iCCM,CM+IPTp+PBO-LLINs+SMC,83
+Kano,Kibiya,,No iCCM,CM+IPTp+LLINs+SMC,83
+Kano,Kiru,,No iCCM,CM+IPTp+LLINs+SMC,83
+Kano,Kumbotso,,No iCCM,CM+IPTp+PBO-LLINs+SMC,83
+Kano,Kunchi,,No iCCM,CM+IPTp+PBO-LLINs+SMC,83
+Kano,Kura,,No iCCM,CM+IPTp+LLINs+SMC,83
+Kano,Madobi,,No iCCM,CM+IPTp+LLINs+SMC,83
+Kano,Makoda,,No iCCM,CM+IPTp+LLINs+SMC,83
+Kano,Minjibir,,No iCCM,CM+IPTp+PBO-LLINs+SMC,83
+Kano,Nasarawa1,Kano,No iCCM,CM+IPTp+UrbanLLINs+SMC,83
+Kano,Rano,,No iCCM,CM+IPTp+PBO-LLINs+SMC,83
+Kano,Rimin Gado,,No iCCM,CM+IPTp+PBO-LLINs+SMC,83
+Kano,Rogo,,No iCCM,CM+IPTp+LLINs+SMC,83
+Kano,Shanono,,No iCCM,CM+IPTp+LLINs+SMC,83
+Kano,Sumaila,,No iCCM,CM+IPTp+LLINs+SMC,83
+Kano,Takali,,No iCCM,CM+IPTp+LLINs+SMC,83
+Kano,Tarauni,Kano,No iCCM,CM+IPTp+UrbanLLINs+SMC,83
+Kano,Tofa,,No iCCM,CM+IPTp+PBO-LLINs+SMC,83
+Kano,Tsanyawa,,No iCCM,CM+IPTp+PBO-LLINs+SMC,83
+Kano,Tudun Wada,,No iCCM,CM+IPTp+LLINs+SMC,83
+Kano,Ungogo,Kano,No iCCM,CM+IPTp+UrbanLLINs+SMC,83
+Kano,Warawa,,No iCCM,CM+IPTp+LLINs+SMC,83
+Kano,Wudil,,No iCCM,CM+IPTp+PBO-LLINs+SMC,83
+Katsina,Bakori,,No iCCM,CM+IPTp+PBO-LLINs+SMC,83
+Katsina,Batagarawa,,No iCCM,CM+IPTp+PBO-LLINs+SMC,83
+Katsina,Batsari,,No iCCM,CM+IPTp+PBO-LLINs+SMC,83
+Katsina,Baure,,No iCCM,CM+IPTp+PBO-LLINs+SMC,83
+Katsina,Bindawa,,No iCCM,CM+IPTp+PBO-LLINs+SMC,83
+Katsina,Charanchi,,No iCCM,CM+IPTp+PBO-LLINs+SMC,83
+Katsina,Dan Musa,,No iCCM,CM+IPTp+PBO-LLINs+SMC,83
+Katsina,Dandume,,No iCCM,CM+IPTp+PBO-LLINs+SMC,83
+Katsina,Danja,,No iCCM,CM+IPTp+PBO-LLINs+SMC,83
+Katsina,Daura,,No iCCM,CM+IPTp+PBO-LLINs+SMC,83
+Katsina,Dutsi,,No iCCM,CM+IPTp+PBO-LLINs+SMC,83
+Katsina,Dutsin-Ma,,No iCCM,CM+IPTp+PBO-LLINs+SMC,83
+Katsina,Faskari,,No iCCM,CM+IPTp+PBO-LLINs+SMC,83
+Katsina,Funtua,,No iCCM,CM+IPTp+PBO-LLINs+SMC,83
+Katsina,Ingawa,,No iCCM,CM+IPTp+PBO-LLINs+SMC,83
+Katsina,Jibia,,No iCCM,CM+IPTp+PBO-LLINs+SMC,83
+Katsina,Kafur,,No iCCM,CM+IPTp+PBO-LLINs+SMC,83
+Katsina,Kankara,,No iCCM,CM+IPTp+PBO-LLINs+SMC,83
+Katsina,Kankia,,No iCCM,CM+IPTp+PBO-LLINs+SMC,83
+Katsina,Katsina,,No iCCM,CM+IPTp+PBO-LLINs+SMC,83
+Katsina,Kurfi,,No iCCM,CM+IPTp+PBO-LLINs+SMC,83
+Katsina,Kusada,,No iCCM,CM+IPTp+PBO-LLINs+SMC,83
+Katsina,Mai'Adua,,No iCCM,CM+IPTp+PBO-LLINs+SMC,84
+Katsina,Malumfashi,,No iCCM,CM+IPTp+PBO-LLINs+SMC,84
+Katsina,Mani,,No iCCM,CM+IPTp+PBO-LLINs+SMC,84
+Katsina,Mashi,,No iCCM,CM+IPTp+PBO-LLINs+SMC,84
+Katsina,Matazuu,,No iCCM,CM+IPTp+PBO-LLINs+SMC,84
+Katsina,Musawa,,No iCCM,CM+IPTp+PBO-LLINs+SMC,84
+Katsina,Rimi,,No iCCM,CM+IPTp+PBO-LLINs+SMC,84
+Katsina,Sabuwa,,No iCCM,CM+IPTp+PBO-LLINs+SMC,84
+Katsina,Safana,,No iCCM,CM+IPTp+PBO-LLINs+SMC,84
+Katsina,Sandamu,,No iCCM,CM+IPTp+PBO-LLINs+SMC,84
+Katsina,Zango,,No iCCM,CM+IPTp+PBO-LLINs+SMC,84
+Katsina,kaita,,No iCCM,CM+IPTp+PBO-LLINs+SMC,84
+Kebbi,Aleiro,,No iCCM,CM+IPTp+PBO-LLINs+SMC,84
+Kebbi,Arewa-Dandi,,No iCCM,CM+IPTp+PBO-LLINs+SMC,84
+Kebbi,Argungu,,No iCCM,CM+IPTp+PBO-LLINs+SMC,84
+Kebbi,Augie,,No iCCM,CM+IPTp+PBO-LLINs+SMC,84
+Kebbi,Bagudo,,No iCCM,CM+IPTp+PBO-LLINs+SMC,84
+Kebbi,Birnin Kebbi,,No iCCM,CM+IPTp+PBO-LLINs+SMC,84
+Kebbi,Bunza,,No iCCM,CM+IPTp+PBO-LLINs+SMC,84
+Kebbi,Dandi,,No iCCM,CM+IPTp+PBO-LLINs+SMC,84
+Kebbi,Fakai,,No iCCM,CM+IPTp+PBO-LLINs+SMC,84
+Kebbi,Gwandu,,No iCCM,CM+IPTp+PBO-LLINs+SMC,84
+Kebbi,Jega,,No iCCM,CM+IPTp+PBO-LLINs+SMC,84
+Kebbi,Kalgo,,No iCCM,CM+IPTp+PBO-LLINs+SMC,84
+Kebbi,Koko/Besse,,No iCCM,CM+IPTp+PBO-LLINs+SMC,84
+Kebbi,Maiyama,,No iCCM,CM+IPTp+PBO-LLINs+SMC,84
+Kebbi,Ngaski,,No iCCM,CM+IPTp+PBO-LLINs+SMC,84
+Kebbi,Sakaba,,No iCCM,CM+IPTp+PBO-LLINs+SMC,84
+Kebbi,Shanga,,No iCCM,CM+IPTp+PBO-LLINs+SMC,84
+Kebbi,Suru,,No iCCM,CM+IPTp+LLINs+SMC,84
+Kebbi,Wasagu/Danko,,No iCCM,CM+IPTp+PBO-LLINs+SMC,84
+Kebbi,Yauri,,No iCCM,CM+IPTp+PBO-LLINs+SMC,84
+Kebbi,Zuru,,No iCCM,CM+IPTp+PBO-LLINs+SMC,84
+Kogi,Adavi,,No iCCM,CM+IPTp+LLINs+SMC,84
+Kogi,Ajaokuta,,No iCCM,CM+IPTp+LLINs+SMC,84
+Kogi,Ankpa,,No iCCM,CM+IPTp+LLINs+IPTi,84
+Kogi,Bassa1,,No iCCM,CM+IPTp+LLINs+SMC,84
+Kogi,Dekina,,No iCCM,CM+IPTp+LLINs+IPTi,84
+Kogi,Ibaji,,No iCCM,CM+IPTp+LLINs+IPTi,84
+Kogi,Idah,,No iCCM,CM+IPTp+LLINs+IPTi,84
+Kogi,Igalamela-Odolu,,No iCCM,CM+IPTp+LLINs+IPTi,84
+Kogi,Ijumu,,No iCCM,CM+IPTp+LLINs+IPTi,84
+Kogi,Kabba/Bunu,,No iCCM,CM+IPTp+LLINs+IPTi,84
+Kogi,Kogi,,No iCCM,CM+IPTp+LLINs+SMC,84
+Kogi,Lokoja,,No iCCM,CM+IPTp+LLINs+SMC,84
+Kogi,Mopa-Muro,,No iCCM,CM+IPTp+LLINs+IPTi,84
+Kogi,Ofu,,No iCCM,CM+IPTp+LLINs+IPTi,84
+Kogi,Ogori/Mangongo,,No iCCM,CM+IPTp+LLINs+IPTi,84
+Kogi,Okehi,,No iCCM,CM+IPTp+LLINs+SMC,84
+Kogi,Okene,,No iCCM,CM+IPTp+LLINs+IPTi,85
+Kogi,Olamabolo,,No iCCM,CM+IPTp+LLINs+IPTi,85
+Kogi,Omala,,No iCCM,CM+IPTp+LLINs+SMC,85
+Kogi,Yagba East,,No iCCM,CM+IPTp+LLINs+SMC,85
+Kogi,Yagba West,,No iCCM,CM+IPTp+LLINs+SMC,85
+Kwara,Asa,,No iCCM,CM+IPTp+LLINs+SMC,85
+Kwara,Baruten,,No iCCM,CM+IPTp+LLINs+SMC,85
+Kwara,Edu,,No iCCM,CM+IPTp+LLINs+SMC,85
+Kwara,Ekiti,,No iCCM,CM+IPTp+PBO-LLINs+IPTi,85
+Kwara,Ifelodun1,,No iCCM,CM+IPTp+PBO-LLINs+SMC,85
+Kwara,Ilorin East,Iilorin,No iCCM,CM+IPTp+UrbanLLINs+SMC,85
+Kwara,Ilorin South,,No iCCM,CM+IPTp+LLINs+SMC,85
+Kwara,Ilorin West,Iilorin,No iCCM,CM+IPTp+UrbanLLINs+SMC,85
+Kwara,Irepodun1,,No iCCM,CM+IPTp+PBO-LLINs+IPTi,85
+Kwara,Isin,,No iCCM,CM+IPTp+PBO-LLINs+IPTi,85
+Kwara,Kaiama,,iCCM,CM+IPTp+PBO-LLINs+SMC,85
+Kwara,Moro,,No iCCM,CM+IPTp+LLINs+SMC,85
+Kwara,Offa,,No iCCM,CM+IPTp+LLINs+IPTi,85
+Kwara,Oke-Ero,,No iCCM,CM+IPTp+PBO-LLINs+SMC,85
+Kwara,Oyun,,No iCCM,CM+IPTp+LLINs+IPTi,85
+Kwara,Pategi,,No iCCM,CM+IPTp+LLINs+SMC,85
+Lagos,Agege,Lagos,No iCCM,CM+IPTp+UrbanLLINs+IPTi,85
+Lagos,Ajeromi-Ifelodun,Lagos,No iCCM,CM+IPTp+UrbanLLINs,85
+Lagos,Alimosho,Lagos,No iCCM,CM+IPTp+UrbanLLINs+IPTi,85
+Lagos,Amuwo-Odofin,Lagos,No iCCM,CM+IPTp+UrbanLLINs+IPTi,85
+Lagos,Apapa,Lagos,No iCCM,CM+IPTp+UrbanLLINs,85
+Lagos,Badagry,,No iCCM,CM+IPTp+LLINs+IPTi,85
+Lagos,Epe,,No iCCM,CM+IPTp+LLINs+IPTi,85
+Lagos,Eti-Osa,Ikorodu,No iCCM,CM+IPTp+UrbanLLINs+IPTi,85
+Lagos,Ibeju/Lekki,,No iCCM,CM+IPTp+LLINs+IPTi,85
+Lagos,Ifako-Ijaye,,No iCCM,CM+IPTp+LLINs+IPTi,85
+Lagos,Ikeja,Lagos,No iCCM,CM+IPTp+UrbanLLINs+IPTi,85
+Lagos,Ikorodu,Ikorodu,No iCCM,CM+IPTp+UrbanLLINs+IPTi,85
+Lagos,Kosofe,Lagos,No iCCM,CM+IPTp+UrbanLLINs+IPTi,85
+Lagos,Lagos Island,Lagos,No iCCM,CM+IPTp+UrbanLLINs+IPTi,85
+Lagos,Lagos Mainland,Lagos,No iCCM,CM+IPTp+UrbanLLINs+IPTi,85
+Lagos,Mushin,Lagos,No iCCM,CM+IPTp+UrbanLLINs,85
+Lagos,Ojo,,No iCCM,CM+IPTp+LLINs+IPTi,85
+Lagos,Oshodi-Isolo,Lagos,No iCCM,CM+IPTp+UrbanLLINs,85
+Lagos,Shomolu,Lagos,No iCCM,CM+IPTp+UrbanLLINs+IPTi,85
+Lagos,Surulere1,Lagos,No iCCM,CM+IPTp+UrbanLLINs,85
+Nasarawa,Akwanga,,No iCCM,CM+IPTp+PBO-LLINs+SMC,85
+Nasarawa,Awe,,No iCCM,CM+IPTp+PBO-LLINs+SMC,85
+Nasarawa,Doma,,No iCCM,CM+IPTp+PBO-LLINs+SMC,85
+Nasarawa,Karu,,No iCCM,CM+IPTp+PBO-LLINs+SMC,85
+Nasarawa,Keana,,No iCCM,CM+IPTp+PBO-LLINs+SMC,85
+Nasarawa,Keffi,,No iCCM,CM+IPTp+PBO-LLINs+SMC,85
+Nasarawa,Kokona,,No iCCM,CM+IPTp+PBO-LLINs+SMC,85
+Nasarawa,Lafia,,No iCCM,CM+IPTp+PBO-LLINs+SMC,85
+Nasarawa,Nasarawa-Eggon,,No iCCM,CM+IPTp+PBO-LLINs+SMC,86
+Nasarawa,Nasarawa2,,No iCCM,CM+IPTp+PBO-LLINs+SMC,86
+Nasarawa,Obi2,,No iCCM,CM+IPTp+PBO-LLINs+SMC,86
+Nasarawa,Toto,,No iCCM,CM+IPTp+LLINs+SMC,86
+Nasarawa,Wamba,,No iCCM,CM+IPTp+PBO-LLINs+SMC,86
+Niger,Agaie,,No iCCM,CM+IPTp+PBO-LLINs+SMC,86
+Niger,Agwara,,No iCCM,CM+IPTp+PBO-LLINs+SMC,86
+Niger,Bida,,No iCCM,CM+IPTp+LLINs+SMC,86
+Niger,Borgu,,iCCM,CM+IPTp+PBO-LLINs+SMC,86
+Niger,Bosso,,No iCCM,CM+IPTp+PBO-LLINs+SMC,86
+Niger,Chanchaga,,No iCCM,CM+IPTp+LLINs+SMC,86
+Niger,Edati,,No iCCM,CM+IPTp+PBO-LLINs+SMC,86
+Niger,Gbako,,No iCCM,CM+IPTp+PBO-LLINs+SMC,86
+Niger,Gurara,,No iCCM,CM+IPTp+PBO-LLINs+SMC,86
+Niger,Katcha,,No iCCM,CM+IPTp+PBO-LLINs+SMC,86
+Niger,Kontagora,,No iCCM,CM+IPTp+PBO-LLINs+SMC,86
+Niger,Lapai,,No iCCM,CM+IPTp+PBO-LLINs+SMC,86
+Niger,Lavun,,No iCCM,CM+IPTp+PBO-LLINs+SMC,86
+Niger,Magama,,No iCCM,CM+IPTp+PBO-LLINs+SMC,86
+Niger,Mariga,,No iCCM,CM+IPTp+PBO-LLINs+SMC,86
+Niger,Mashegu,,No iCCM,CM+IPTp+PBO-LLINs+SMC,86
+Niger,Mokwa,,No iCCM,CM+IPTp+PBO-LLINs+SMC,86
+Niger,Muya,,No iCCM,CM+IPTp+PBO-LLINs+SMC,86
+Niger,Pailoro,,No iCCM,CM+IPTp+PBO-LLINs+SMC,86
+Niger,Rafi,,No iCCM,CM+IPTp+PBO-LLINs+SMC,86
+Niger,Rijau,,No iCCM,CM+IPTp+PBO-LLINs+SMC,86
+Niger,Shiroro,,No iCCM,CM+IPTp+PBO-LLINs+SMC,86
+Niger,Suleja,,No iCCM,CM+IPTp+LLINs+SMC,86
+Niger,Tafa,,No iCCM,CM+IPTp+LLINs+SMC,86
+Niger,Wushishi,,No iCCM,CM+IPTp+PBO-LLINs+SMC,86
+Ogun,Abeokuta North,,No iCCM,CM+IPTp+LLINs+IPTi,86
+Ogun,Abeokuta South,,No iCCM,CM+IPTp+LLINs+IPTi,86
+Ogun,Ado-Odo/Ota,,No iCCM,CM+IPTp+LLINs+IPTi,86
+Ogun,Egbado North,,No iCCM,CM+IPTp+PBO-LLINs+IPTi,86
+Ogun,Egbado South,,No iCCM,CM+IPTp+LLINs+IPTi,86
+Ogun,Ewekoro,,No iCCM,CM+IPTp+LLINs+IPTi,86
+Ogun,Ifo,,No iCCM,CM+IPTp+LLINs+IPTi,86
+Ogun,Ijebu East,,No iCCM,CM+IPTp+PBO-LLINs+IPTi,86
+Ogun,Ijebu North,,No iCCM,CM+IPTp+PBO-LLINs+IPTi,86
+Ogun,Ijebu North East,,No iCCM,CM+IPTp+LLINs+IPTi,86
+Ogun,Ijebu ode,,No iCCM,CM+IPTp+LLINs+IPTi,86
+Ogun,Ikenne,,No iCCM,CM+IPTp+LLINs+IPTi,86
+Ogun,Imeko-Afon,,No iCCM,CM+IPTp+LLINs+IPTi,86
+Ogun,Ipokia,,No iCCM,CM+IPTp+LLINs+IPTi,86
+Ogun,Obafemi-Owode,,No iCCM,CM+IPTp+LLINs+IPTi,86
+Ogun,Odeda,,No iCCM,CM+IPTp+LLINs+IPTi,86
+Ogun,Odogbolu,,No iCCM,CM+IPTp+LLINs+IPTi,86
+Ogun,Ogun waterside,,No iCCM,CM+IPTp+LLINs+IPTi,86
+Ogun,Remo North,,No iCCM,CM+IPTp+LLINs+IPTi,86
+Ogun,Shagamu,Ikorodu,No iCCM,CM+IPTp+UrbanLLINs+IPTi,87
+Ondo,Akoko North East,,No iCCM,CM+IPTp+LLINs+IPTi,87
+Ondo,Akoko North West,,No iCCM,CM+IPTp+LLINs+IPTi,87
+Ondo,Akoko South East,,No iCCM,CM+IPTp+LLINs+IPTi,87
+Ondo,Akoko South West,,No iCCM,CM+IPTp+LLINs+IPTi,87
+Ondo,Akure North,,No iCCM,CM+IPTp+LLINs+IPTi,87
+Ondo,Akure South,,No iCCM,CM+IPTp+LLINs+IPTi,87
+Ondo,Ese-Odo,,No iCCM,CM+IPTp+LLINs+IPTi,87
+Ondo,Idanre,,No iCCM,CM+IPTp+LLINs+IPTi,87
+Ondo,Ifedore,,No iCCM,CM+IPTp+LLINs+IPTi,87
+Ondo,Ilaje,,No iCCM,CM+IPTp+LLINs+IPTi,87
+Ondo,Ile-Oluji-Okeigbo,,No iCCM,CM+IPTp+LLINs+IPTi,87
+Ondo,Irele,,No iCCM,CM+IPTp+LLINs+IPTi,87
+Ondo,Odigbo,,No iCCM,CM+IPTp+LLINs+IPTi,87
+Ondo,Okitipupa,,No iCCM,CM+IPTp+LLINs+IPTi,87
+Ondo,Ondo East,,No iCCM,CM+IPTp+LLINs+IPTi,87
+Ondo,Ondo West,,No iCCM,CM+IPTp+LLINs+IPTi,87
+Ondo,Ose,,No iCCM,CM+IPTp+LLINs+IPTi,87
+Ondo,Owo,,No iCCM,CM+IPTp+LLINs+IPTi,87
+Osun,Aiyedade,,No iCCM,CM+IPTp+LLINs+IPTi,87
+Osun,Aiyedire,,No iCCM,CM+IPTp+LLINs+IPTi,87
+Osun,Atakumosa East,,No iCCM,CM+IPTp+LLINs+IPTi,87
+Osun,Atakumosa West,,No iCCM,CM+IPTp+LLINs+IPTi,87
+Osun,Boluwaduro,,No iCCM,CM+IPTp+LLINs+IPTi,87
+Osun,Boripe,,No iCCM,CM+IPTp+LLINs+IPTi,87
+Osun,Ede North,,No iCCM,CM+IPTp+LLINs+IPTi,87
+Osun,Ede South,,No iCCM,CM+IPTp+LLINs+IPTi,87
+Osun,Egbedore,,No iCCM,CM+IPTp+LLINs+IPTi,87
+Osun,Ejigbo,,No iCCM,CM+IPTp+LLINs+IPTi,87
+Osun,Ife Central,Ife,No iCCM,CM+IPTp+UrbanLLINs+IPTi,87
+Osun,Ife East,Ife,No iCCM,CM+IPTp+UrbanLLINs+IPTi,87
+Osun,Ife North,Ife,No iCCM,CM+IPTp+UrbanLLINs+IPTi,87
+Osun,Ife South,,No iCCM,CM+IPTp+LLINs+IPTi,87
+Osun,Ifedayo,,No iCCM,CM+IPTp+LLINs+IPTi,87
+Osun,Ifelodun2,,No iCCM,CM+IPTp+PBO-LLINs+IPTi,87
+Osun,Ila,,No iCCM,CM+IPTp+LLINs+IPTi,87
+Osun,Ilesha East,,No iCCM,CM+IPTp+LLINs+IPTi,87
+Osun,Ilesha West,,No iCCM,CM+IPTp+LLINs+IPTi,87
+Osun,Irepodun2,,No iCCM,CM+IPTp+PBO-LLINs+IPTi,87
+Osun,Irewole,,No iCCM,CM+IPTp+LLINs+IPTi,87
+Osun,Isokan,,No iCCM,CM+IPTp+LLINs+IPTi,87
+Osun,Iwo,,No iCCM,CM+IPTp+LLINs+IPTi,87
+Osun,Obokun,,No iCCM,CM+IPTp+LLINs+IPTi,87
+Osun,Odo-Otin,,No iCCM,CM+IPTp+LLINs+IPTi,87
+Osun,Ola-oluwa,,No iCCM,CM+IPTp+LLINs+IPTi,87
+Osun,Olorunda,,No iCCM,CM+IPTp+LLINs+IPTi,87
+Osun,Oriade,,No iCCM,CM+IPTp+LLINs+IPTi,87
+Osun,Orolu,,No iCCM,CM+IPTp+LLINs+IPTi,87
+Osun,Osogbo,,No iCCM,CM+IPTp+LLINs+IPTi,87
+Oyo,Afijio,,No iCCM,CM+IPTp+LLINs+IPTi,88
+Oyo,Akinyele,Ibadan,No iCCM,CM+IPTp+UrbanLLINs+IPTi,88
+Oyo,Atiba,,No iCCM,CM+IPTp+LLINs+IPTi,88
+Oyo,Atigbo,,No iCCM,CM+IPTp+LLINs+IPTi,88
+Oyo,Egbeda,Ibadan,No iCCM,CM+IPTp+UrbanLLINs+IPTi,88
+Oyo,Ibadan North,Ibadan,No iCCM,CM+IPTp+UrbanLLINs+IPTi,88
+Oyo,Ibadan North East,Ibadan,No iCCM,CM+IPTp+UrbanLLINs+IPTi,88
+Oyo,Ibadan North West,Ibadan,No iCCM,CM+IPTp+UrbanLLINs+IPTi,88
+Oyo,Ibadan South East,Ibadan,No iCCM,CM+IPTp+UrbanLLINs+IPTi,88
+Oyo,Ibadan South West,Ibadan,No iCCM,CM+IPTp+UrbanLLINs+IPTi,88
+Oyo,Ibarapa Central,,No iCCM,CM+IPTp+PBO-LLINs+IPTi,88
+Oyo,Ibarapa East,,No iCCM,CM+IPTp+LLINs+IPTi,88
+Oyo,Ibarapa North,,No iCCM,CM+IPTp+LLINs+IPTi,88
+Oyo,Ido,Ibadan,No iCCM,CM+IPTp+UrbanLLINs+IPTi,88
+Oyo,Irepo,,No iCCM,CM+IPTp+LLINs+SMC,88
+Oyo,Iseyin,,No iCCM,CM+IPTp+LLINs+IPTi,88
+Oyo,Itesiwaju,,No iCCM,CM+IPTp+LLINs+IPTi,88
+Oyo,Iwajowa,,No iCCM,CM+IPTp+LLINs+IPTi,88
+Oyo,Kajola,,No iCCM,CM+IPTp+LLINs+IPTi,88
+Oyo,Lagelu,Ibadan,No iCCM,CM+IPTp+UrbanLLINs+IPTi,88
+Oyo,Ogbomosho North,,No iCCM,CM+IPTp+LLINs+SMC,88
+Oyo,Ogbomosho South,,No iCCM,CM+IPTp+LLINs+IPTi,88
+Oyo,Ogo Oluwa,,No iCCM,CM+IPTp+LLINs+IPTi,88
+Oyo,Olorunsogo,,No iCCM,CM+IPTp+LLINs+SMC,88
+Oyo,Oluyole,,No iCCM,CM+IPTp+PBO-LLINs+IPTi,88
+Oyo,Ona-Ara,Ibadan,No iCCM,CM+IPTp+UrbanLLINs+IPTi,88
+Oyo,Orelope,,No iCCM,CM+IPTp+LLINs+IPTi,88
+Oyo,Ori Ire,,No iCCM,CM+IPTp+LLINs+IPTi,88
+Oyo,Oyo East,,No iCCM,CM+IPTp+LLINs+IPTi,88
+Oyo,Oyo West,,No iCCM,CM+IPTp+LLINs+IPTi,88
+Oyo,Saki East,,No iCCM,CM+IPTp+LLINs+SMC,88
+Oyo,Saki West,,iCCM,CM+IPTp+LLINs+SMC,88
+Oyo,Surulere2,,No iCCM,CM+IPTp+PBO-LLINs+IPTi,88
+Plateau,Barikin Ladi,,No iCCM,CM+IPTp+LLINs+SMC,88
+Plateau,Bassa2,,No iCCM,CM+IPTp+LLINs+SMC,88
+Plateau,Bokkos,,No iCCM,CM+IPTp+LLINs+SMC,88
+Plateau,Jos East,,No iCCM,CM+IPTp+PBO-LLINs+SMC,88
+Plateau,Jos North,Jos,No iCCM,CM+IPTp+UrbanLLINs+SMC,88
+Plateau,Jos South,Jos,No iCCM,CM+IPTp+UrbanLLINs+SMC,88
+Plateau,Kanam,,No iCCM,CM+IPTp+LLINs+SMC,88
+Plateau,Kanke,,No iCCM,CM+IPTp+PBO-LLINs+SMC,88
+Plateau,Langtang North,,No iCCM,CM+IPTp+PBO-LLINs+SMC,88
+Plateau,Langtang South,,No iCCM,CM+IPTp+PBO-LLINs+SMC,88
+Plateau,Mangu,,No iCCM,CM+IPTp+LLINs+SMC,88
+Plateau,Mikang,,No iCCM,CM+IPTp+PBO-LLINs+SMC,88
+Plateau,Pankshin,,No iCCM,CM+IPTp+LLINs+SMC,88
+Plateau,Qua'an Pan,,No iCCM,CM+IPTp+PBO-LLINs+SMC,88
+Plateau,Riyom,,No iCCM,CM+IPTp+LLINs+SMC,88
+Plateau,Shendam,,No iCCM,CM+IPTp+PBO-LLINs+SMC,88
+Plateau,Wase,,No iCCM,CM+IPTp+LLINs+SMC,89
+Rivers,Abua/Odual,,No iCCM,CM+IPTp+LLINs+IPTi,89
+Rivers,Ahoada East,,No iCCM,CM+IPTp+LLINs+IPTi,89
+Rivers,Ahoada West,,No iCCM,CM+IPTp+LLINs+IPTi,89
+Rivers,Akuku Toru,,No iCCM,CM+IPTp+LLINs+IPTi,89
+Rivers,Andoni,,No iCCM,CM+IPTp+LLINs+IPTi,89
+Rivers,Asari-Toru,,No iCCM,CM+IPTp+LLINs+IPTi,89
+Rivers,Bonny,,No iCCM,CM+IPTp+LLINs+IPTi,89
+Rivers,Degema,,No iCCM,CM+IPTp+LLINs+IPTi,89
+Rivers,Eleme,Port Harcourt,No iCCM,CM+IPTp+UrbanLLINs+IPTi,89
+Rivers,Emohua,,No iCCM,CM+IPTp+LLINs+IPTi,89
+Rivers,Etche,,No iCCM,CM+IPTp+LLINs+IPTi,89
+Rivers,Gokana,,No iCCM,CM+IPTp+LLINs+IPTi,89
+Rivers,Ikwerre,,No iCCM,CM+IPTp+LLINs+IPTi,89
+Rivers,Khana,,No iCCM,CM+IPTp+LLINs+IPTi,89
+Rivers,Obia/Akpor,Port Harcourt,No iCCM,CM+IPTp+UrbanLLINs+IPTi,89
+Rivers,Ogba/Egbema/Ndoni,,No iCCM,CM+IPTp+LLINs+IPTi,89
+Rivers,Ogu/Bolo,,No iCCM,CM+IPTp+LLINs+IPTi,89
+Rivers,Okrika,,No iCCM,CM+IPTp+LLINs+IPTi,89
+Rivers,Omumma,,No iCCM,CM+IPTp+LLINs+IPTi,89
+Rivers,Opobo/Nkoro,,No iCCM,CM+IPTp+LLINs+IPTi,89
+Rivers,Oyigbo,,No iCCM,CM+IPTp+LLINs+IPTi,89
+Rivers,Port-Harcourt,Port Harcourt,No iCCM,CM+IPTp+UrbanLLINs+IPTi,89
+Rivers,Tai,,No iCCM,CM+IPTp+LLINs+IPTi,89
+Sokoto,Binji,,No iCCM,CM+IPTp+PBO-LLINs+SMC,89
+Sokoto,Bodinga,,No iCCM,CM+IPTp+PBO-LLINs+SMC,89
+Sokoto,Dange-Shnsi,,No iCCM,CM+IPTp+PBO-LLINs+SMC,89
+Sokoto,Gada,,No iCCM,CM+IPTp+PBO-LLINs+SMC,89
+Sokoto,Gawabawa,,No iCCM,CM+IPTp+PBO-LLINs+SMC,89
+Sokoto,Goronyo,,No iCCM,CM+IPTp+PBO-LLINs+SMC,89
+Sokoto,Gudu,,No iCCM,CM+IPTp+PBO-LLINs+SMC,89
+Sokoto,Illela,,No iCCM,CM+IPTp+PBO-LLINs+SMC,89
+Sokoto,Isa,,No iCCM,CM+IPTp+PBO-LLINs+SMC,89
+Sokoto,Kebbe,,No iCCM,CM+IPTp+PBO-LLINs+SMC,89
+Sokoto,Kware,,No iCCM,CM+IPTp+PBO-LLINs+SMC,89
+Sokoto,Rabah,,No iCCM,CM+IPTp+PBO-LLINs+SMC,89
+Sokoto,Sabon Birni,,No iCCM,CM+IPTp+PBO-LLINs+SMC,89
+Sokoto,Shagari,,No iCCM,CM+IPTp+PBO-LLINs+SMC,89
+Sokoto,Silame,,No iCCM,CM+IPTp+PBO-LLINs+SMC,89
+Sokoto,Sokoto North,,No iCCM,CM+IPTp+PBO-LLINs+SMC,89
+Sokoto,Sokoto South,,No iCCM,CM+IPTp+PBO-LLINs+SMC,89
+Sokoto,Tambuwal,,No iCCM,CM+IPTp+PBO-LLINs+SMC,89
+Sokoto,Tangaza,,No iCCM,CM+IPTp+PBO-LLINs+SMC,89
+Sokoto,Tureta,,No iCCM,CM+IPTp+PBO-LLINs+SMC,89
+Sokoto,Wamako,,No iCCM,CM+IPTp+PBO-LLINs+SMC,89
+Sokoto,Wurno,,No iCCM,CM+IPTp+PBO-LLINs+SMC,89
+Sokoto,Yabo,,No iCCM,CM+IPTp+PBO-LLINs+SMC,89
+Taraba,Ardo-Kola,,No iCCM,CM+IPTp+PBO-LLINs+SMC,89
+Taraba,Bali,,No iCCM,CM+IPTp+LLINs+IPTi,89
+Taraba,Donga,,No iCCM,CM+IPTp+LLINs+IPTi,90
+Taraba,Gashaka,,No iCCM,CM+IPTp+PBO-LLINs+IPTi,90
+Taraba,Gassol,,No iCCM,CM+IPTp+PBO-LLINs+SMC,90
+Taraba,Ibi,,No iCCM,CM+IPTp+PBO-LLINs+SMC,90
+Taraba,Jalingo,,No iCCM,CM+IPTp+PBO-LLINs+SMC,90
+Taraba,Karin-Lamido,,No iCCM,CM+IPTp+PBO-LLINs+SMC,90
+Taraba,Kurmi,,No iCCM,CM+IPTp+LLINs+IPTi,90
+Taraba,Lau,,No iCCM,CM+IPTp+PBO-LLINs+SMC,90
+Taraba,Sardauna,,No iCCM,CM+IPTp+LLINs+IPTi,90
+Taraba,Takum,,No iCCM,CM+IPTp+LLINs+IPTi,90
+Taraba,Ussa,,No iCCM,CM+IPTp+LLINs+IPTi,90
+Taraba,Wukari,,No iCCM,CM+IPTp+PBO-LLINs+SMC,90
+Taraba,Yorro,,No iCCM,CM+IPTp+LLINs+SMC,90
+Taraba,Zing,,No iCCM,CM+IPTp+LLINs+SMC,90
+Yobe,Bade,,No iCCM,CM+IPTp+PBO-LLINs+SMC,90
+Yobe,Bursari,,No iCCM,CM+IPTp+LLINs+SMC,90
+Yobe,Damaturu,,No iCCM,CM+IPTp+PBO-LLINs+SMC,90
+Yobe,Fika,,No iCCM,CM+IPTp+PBO-LLINs+SMC,90
+Yobe,Fune,,No iCCM,CM+IPTp+LLINs+SMC,90
+Yobe,Geidam,,iCCM,CM+IPTp+LLINs+SMC,90
+Yobe,Gujba,,No iCCM,CM+IPTp+PBO-LLINs+SMC,90
+Yobe,Gulani,,No iCCM,CM+IPTp+PBO-LLINs+SMC,90
+Yobe,Jakusko,,No iCCM,CM+IPTp+PBO-LLINs+SMC,90
+Yobe,Karasuwa,,No iCCM,CM+IPTp+LLINs+SMC,90
+Yobe,Machina,,No iCCM,CM+IPTp+PBO-LLINs+SMC,90
+Yobe,Nangere,,No iCCM,CM+IPTp+PBO-LLINs+SMC,90
+Yobe,Nguru,,No iCCM,CM+IPTp+LLINs+SMC,90
+Yobe,Potiskum,,No iCCM,CM+IPTp+PBO-LLINs+SMC,90
+Yobe,Tarmua,,No iCCM,CM+IPTp+PBO-LLINs+SMC,90
+Yobe,Yunusari,,No iCCM,CM+IPTp+LLINs+SMC,90
+Yobe,Yusufari,,iCCM,CM+IPTp+LLINs+SMC,90
+Zamfara,Anka,,No iCCM,CM+IPTp+PBO-LLINs+SMC,90
+Zamfara,Bakura,,No iCCM,CM+IPTp+PBO-LLINs+SMC,90
+Zamfara,Birnin Magaji,,No iCCM,CM+IPTp+PBO-LLINs+SMC,90
+Zamfara,Bukkuyum,,No iCCM,CM+IPTp+PBO-LLINs+SMC,90
+Zamfara,Bungudu,,No iCCM,CM+IPTp+PBO-LLINs+SMC,90
+Zamfara,Gummi,,No iCCM,CM+IPTp+PBO-LLINs+SMC,90
+Zamfara,Gusau,,No iCCM,CM+IPTp+PBO-LLINs+SMC,90
+Zamfara,Kaura-Namoda,,No iCCM,CM+IPTp+PBO-LLINs+SMC,90
+Zamfara,Maradun,,No iCCM,CM+IPTp+PBO-LLINs+SMC,90
+Zamfara,Maru,,No iCCM,CM+IPTp+PBO-LLINs+SMC,90
+Zamfara,Shinkafi,,No iCCM,CM+IPTp+PBO-LLINs+SMC,90
+Zamfara,Talata Mafara,,No iCCM,CM+IPTp+PBO-LLINs+SMC,90
+Zamfara,Tsafe,,No iCCM,CM+IPTp+PBO-LLINs+SMC,90
+Zamfara,Zurmi,,No iCCM,CM+IPTp+PBO-LLINs+SMC,90
