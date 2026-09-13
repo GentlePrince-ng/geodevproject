@@ -25,3 +25,7 @@ venv/
 # OS
 Thumbs.db
 .DS_Store
+
+# QGIS: the project file and exported maps are committed; scratch is not
+qgis/*.qgz~
+qgis/*.qgd

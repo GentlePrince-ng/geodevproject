@@ -30,8 +30,15 @@ Four datasets, each with its source link, in
 | 3 | Nigeria state boundaries (admin 1) | [HDX `cod-ab-nga`](https://data.humdata.org/dataset/cod-ab-nga) |
 | 4 | Nigeria subnational population | [HDX `cod-ps-nga`](https://data.humdata.org/dataset/cod-ps-nga) |
 
-Dataset 1 is obtained and extracted. All four links were checked and returned
-HTTP 200 on 5 September 2026.
+**All four are now downloaded, opened in QGIS and joined into one GeoPackage**
+(`data/processed/nga_cod_admin.gpkg`, committed). Feature counts, key columns,
+geometry types and every gap found are written up in
+[`docs/data-note.md`](docs/data-note.md).
+
+The headline: the NMSP table carries no PCODEs, only names, and **774 of 774
+LGAs still reach a PCODE** — 746 by exact match, 12 by stripping the NMSP's
+numeric disambiguation suffixes, 16 by a hand-checked spelling table. Nothing
+unmatched, no two rows landing on the same polygon.
 
 ## Project
 
@@ -48,14 +55,20 @@ The goal is a reproducible geospatial intelligence system, not a static map.
 ```
 ├── project-brief.md                  Question, study area, data, and what gets built
 ├── docs/
+│   ├── data-note.md                  Week 2: every dataset, its columns, and its gaps
 │   ├── data-sources.md               Source register for every dataset claimed
 │   └── data-feasibility.md           Log of what was actually tested and found
 ├── scripts/
 │   ├── extract_nmsp_annex1.py        NMSP 2021–2025 Annex 1 → LGA intervention mix
-│   └── extract_nmis2025_parasitaemia.py   NMIS 2025 → state-level parasitaemia
+│   ├── extract_nmis2025_parasitaemia.py   NMIS 2025 → state-level parasitaemia
+│   ├── download_cod_data.py          HDX boundaries + population, with checksums
+│   └── build_admin_gpkg.py           Joins all three into the project GeoPackage
+├── qgis/
+│   ├── snt.qgz                       QGIS project
+│   └── intervention_mix_by_lga.png   Map export
 └── data/
-    ├── raw/                          Public source PDFs (not committed; see data/raw/README.md)
-    └── processed/                    Extracted, machine-readable tables
+    ├── raw/                          Public source files (not committed; see data/raw/README.md)
+    └── processed/                    Extracted tables and nga_cod_admin.gpkg
 ```
 
 ## Week 1 headline findings
@@ -108,6 +121,46 @@ so the data are in the repository either way.
 
 Requires Python 3 and `pymupdf`.
 
+## Rebuilding the spatial layers
+
+```bash
+pip install geopandas openpyxl
+python scripts/download_cod_data.py
+python scripts/build_admin_gpkg.py
+```
+
+The first fetches the two OCHA Common Operational Datasets from HDX (resolved
+through the HDX API, not hard-coded URLs) and prints each file's SHA-256. The
+second joins the NMSP mixes and the LGA population onto the boundaries and
+writes `data/processed/nga_cod_admin.gpkg`. It **raises** rather than warns if
+any NMSP name fails to reach a PCODE, so a silent partial join cannot happen.
+Expected output:
+
+```
+boundaries: 37 states, 774 LGAs, CRS EPSG:4326
+NMSP mixes: 774 rows
+  exact           746
+  suffix_strip     12
+  spelling_table   16
+LGAs with no COD population row: 1 (Bakassi)
+```
+
+## Week 2 headline findings
+
+1. **The join holds — 774/774.** The one risk that could have ended the project
+   is closed. Two matches would have been lost by any automatic matcher:
+   `Efon-Alayee → Efon` is a town standing in for its LGA, and
+   `Gboyin → Aiyekire (Gbonyin)` only resolves because the COD name carries the
+   alias in brackets.
+2. **The current population release has no LGA data.** `nga_admpop_2022.xlsx`
+   is the headline resource on the HDX page and stops at state level. LGA
+   population survives only in the older 2020 workbook. Taking the newest file
+   would have left the project with no denominator.
+3. **773 LGAs have population, not 774.** Bakassi was ceded to Cameroon in 2002
+   and never enumerated, so it is drawn but not counted.
+4. **The COD `admin3` layer is not a national ward layer.** Its 714 features
+   cover Borno, Adamawa and Yobe only. Nigeria has roughly 8,800 wards.
+
 ## Data ethics
 
 This repository contains only data derived from public documents. Restricted
@@ -121,4 +174,6 @@ See `project-brief.md` for the initial project definition.
 
 ## Status
 
-Month 1 — project definition and data feasibility.
+Month 1, Week 2 — spatial data acquired, joined and mapped. Next: build the
+LGA adjacency list and count how often neighbouring LGAs carry different
+intervention mixes.
