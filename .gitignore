@@ -29,3 +29,8 @@ Thumbs.db
 # QGIS: the project file and exported maps are committed; scratch is not
 qgis/*.qgz~
 qgis/*.qgd
+
+# A QGIS session that was opened from the repo root saves the project back
+# there with ./data/... datasources, which breaks when moved. The real
+# project is qgis/snt.qgz; any .qgz at the root is a stale copy.
+/*.qgz
