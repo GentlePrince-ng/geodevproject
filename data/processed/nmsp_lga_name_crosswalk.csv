@@ -1,0 +1,775 @@
+nmsp_state,nmsp_lga,adm2_pcode,match_method
+Abia,Aba North,NG001001,exact
+Abia,Aba South,NG001002,exact
+Abia,Arochukwu,NG001003,exact
+Abia,Bende,NG001004,exact
+Abia,Ikwuano,NG001005,exact
+Abia,Isiala-Ngwa North,NG001006,exact
+Abia,Isiala-Ngwa South,NG001007,exact
+Abia,Isuikwato,NG001008,spelling_table
+Abia,Obi Nwa,NG001009,spelling_table
+Abia,Ohafia,NG001010,exact
+Abia,Osisioma Ngwa,NG001011,exact
+Abia,Ugwunagbo,NG001012,exact
+Abia,Ukwa East,NG001013,exact
+Abia,Ukwa West,NG001014,exact
+Abia,Umu-Neochi,NG001017,spelling_table
+Abia,Umuahia North,NG001015,exact
+Abia,Umuahia South,NG001016,exact
+Adamawa,Demsa,NG002001,exact
+Adamawa,Fufore,NG002002,exact
+Adamawa,Ganaye,NG002003,spelling_table
+Adamawa,Gireri,NG002005,spelling_table
+Adamawa,Gombi,NG002004,exact
+Adamawa,Guyuk,NG002006,exact
+Adamawa,Hong,NG002007,exact
+Adamawa,Jada,NG002008,exact
+Adamawa,Lamurde,NG002009,exact
+Adamawa,Madagali,NG002010,exact
+Adamawa,Maiha,NG002011,exact
+Adamawa,Mayo-Belwa,NG002012,exact
+Adamawa,Michika,NG002013,exact
+Adamawa,Mubi North,NG002014,exact
+Adamawa,Mubi South,NG002015,exact
+Adamawa,Numan,NG002016,exact
+Adamawa,Shelleng,NG002017,exact
+Adamawa,Song,NG002018,exact
+Adamawa,Toungo,NG002019,exact
+Adamawa,Yola North,NG002020,exact
+Adamawa,Yola South,NG002021,exact
+Akwa Ibom,Abak,NG003001,exact
+Akwa Ibom,Eastern Obolo,NG003002,exact
+Akwa Ibom,Eket,NG003003,exact
+Akwa Ibom,Esit Eket,NG003004,exact
+Akwa Ibom,Essien Udim,NG003005,exact
+Akwa Ibom,Etim Ekpo,NG003006,exact
+Akwa Ibom,Etinan,NG003007,exact
+Akwa Ibom,Ibeno,NG003008,exact
+Akwa Ibom,Ibesikpo Asutan,NG003009,exact
+Akwa Ibom,Ibiono Ibom,NG003010,exact
+Akwa Ibom,Ika,NG003011,exact
+Akwa Ibom,Ikono,NG003012,exact
+Akwa Ibom,Ikot Abasi,NG003013,exact
+Akwa Ibom,Ikot Ekpene,NG003014,exact
+Akwa Ibom,Ini,NG003015,exact
+Akwa Ibom,Itu,NG003016,exact
+Akwa Ibom,Mbo,NG003017,exact
+Akwa Ibom,Mkpat Enin,NG003018,exact
+Akwa Ibom,Nsit Atai,NG003019,exact
+Akwa Ibom,Nsit Ibom,NG003020,exact
+Akwa Ibom,Nsit Ubium,NG003021,exact
+Akwa Ibom,Obot Akara,NG003022,exact
+Akwa Ibom,Okobo,NG003023,exact
+Akwa Ibom,Onna,NG003024,exact
+Akwa Ibom,Oron,NG003025,exact
+Akwa Ibom,Oruk Anam,NG003026,exact
+Akwa Ibom,Udung Uko,NG003027,exact
+Akwa Ibom,Ukanafun,NG003028,exact
+Akwa Ibom,Uruan,NG003029,exact
+Akwa Ibom,Urue-Offong/Oruko,NG003030,exact
+Akwa Ibom,Uyo,NG003031,exact
+Anambra,Aguata,NG004001,exact
+Anambra,Anambra East,NG004002,exact
+Anambra,Anambra West,NG004003,exact
+Anambra,Anaocha,NG004004,exact
+Anambra,Awka North,NG004005,exact
+Anambra,Awka South,NG004006,exact
+Anambra,Ayamelum,NG004007,exact
+Anambra,Dunukofia,NG004008,exact
+Anambra,Ekwusigo,NG004009,exact
+Anambra,Idemili North,NG004010,exact
+Anambra,Idemili South,NG004011,exact
+Anambra,Ihiala,NG004012,exact
+Anambra,Njikoka,NG004013,exact
+Anambra,Nnewi North,NG004014,exact
+Anambra,Nnewi South,NG004015,exact
+Anambra,Ogbaru,NG004016,exact
+Anambra,Onitsha North,NG004017,exact
+Anambra,Onitsha South,NG004018,exact
+Anambra,Orumba North,NG004019,exact
+Anambra,Orumba South,NG004020,exact
+Anambra,Oyi,NG004021,exact
+Bauchi,Alkaleri,NG005001,exact
+Bauchi,Bauchi,NG005002,exact
+Bauchi,Bogoro,NG005003,exact
+Bauchi,Damban,NG005004,exact
+Bauchi,Darazo,NG005005,exact
+Bauchi,Dass,NG005006,exact
+Bauchi,Gamawa,NG005007,exact
+Bauchi,Ganjuwa,NG005008,exact
+Bauchi,Giade,NG005009,exact
+Bauchi,Itas/Gadau,NG005010,exact
+Bauchi,Jama'are,NG005011,exact
+Bauchi,Katagum,NG005012,exact
+Bauchi,Kirfi,NG005013,exact
+Bauchi,Misau,NG005014,exact
+Bauchi,Ningi,NG005015,exact
+Bauchi,Shira,NG005016,exact
+Bauchi,Tafawa-Balewa,NG005017,exact
+Bauchi,Toro,NG005018,exact
+Bauchi,Warji,NG005019,exact
+Bauchi,Zaki,NG005020,exact
+Bayelsa,Brass,NG006001,exact
+Bayelsa,Ekeremor,NG006002,exact
+Bayelsa,Kolokuma/Opokuma,NG006003,exact
+Bayelsa,Nembe,NG006004,exact
+Bayelsa,Ogbia,NG006005,exact
+Bayelsa,Sagbama,NG006006,exact
+Bayelsa,Southern Ijaw,NG006007,exact
+Bayelsa,Yenegoa,NG006008,exact
+Benue,Ado,NG007001,exact
+Benue,Agatu,NG007002,exact
+Benue,Apa,NG007003,exact
+Benue,Buruku,NG007004,exact
+Benue,Gboko,NG007005,exact
+Benue,Guma,NG007006,exact
+Benue,Gwer East,NG007007,exact
+Benue,Gwer West,NG007008,exact
+Benue,Katsina-Ala,NG007009,exact
+Benue,Konshisha,NG007010,exact
+Benue,Kwande,NG007011,exact
+Benue,Logo,NG007012,exact
+Benue,Makurdi,NG007013,exact
+Benue,Obi1,NG007014,suffix_strip
+Benue,Ogbadibo,NG007015,exact
+Benue,Ohimini,NG007016,exact
+Benue,Oju,NG007017,exact
+Benue,Okpokwu,NG007018,exact
+Benue,Oturkpo,NG007019,exact
+Benue,Tarka,NG007020,exact
+Benue,Ukum,NG007021,exact
+Benue,Ushongo,NG007022,exact
+Benue,Vandeikya,NG007023,exact
+Borno,Abadam,NG008001,exact
+Borno,Askira/Uba,NG008002,exact
+Borno,Bama,NG008003,exact
+Borno,Bayo,NG008004,exact
+Borno,Biu,NG008005,exact
+Borno,Chibok,NG008006,exact
+Borno,Damboa,NG008007,exact
+Borno,Dikwa,NG008008,exact
+Borno,Gubio,NG008009,exact
+Borno,Guzamala,NG008010,exact
+Borno,Gwoza,NG008011,exact
+Borno,Hawul,NG008012,exact
+Borno,Jere,NG008013,exact
+Borno,Kaga,NG008014,exact
+Borno,Kala/Balge,NG008015,exact
+Borno,Konduga,NG008016,exact
+Borno,Kukawa,NG008017,exact
+Borno,Kwaya Kusar,NG008018,exact
+Borno,Mafa,NG008019,exact
+Borno,Magumeri,NG008020,exact
+Borno,Maiduguri,NG008021,exact
+Borno,Marte,NG008022,exact
+Borno,Mobbar,NG008023,exact
+Borno,Monguno,NG008024,exact
+Borno,Ngala,NG008025,exact
+Borno,Nganzai,NG008026,exact
+Borno,Shani,NG008027,exact
+Cross River,Abi,NG009001,exact
+Cross River,Akamkpa,NG009002,exact
+Cross River,Akpabuyo,NG009003,exact
+Cross River,Bakassi,NG009005,exact
+Cross River,Bekwara,NG009006,exact
+Cross River,Biase,NG009007,exact
+Cross River,Boki,NG009008,exact
+Cross River,Calabar South,NG009009,exact
+Cross River,Calabar-Municipal,NG009010,exact
+Cross River,Etung,NG009011,exact
+Cross River,Ikom,NG009012,exact
+Cross River,Obanliku,NG009013,exact
+Cross River,Obubra,NG009014,exact
+Cross River,Obudu,NG009015,exact
+Cross River,Odukpani,NG009016,exact
+Cross River,Ogoja,NG009017,exact
+Cross River,Yakurr,NG009018,exact
+Cross River,Yala,NG009019,exact
+Delta,Aniocha North,NG010001,exact
+Delta,Aniocha South,NG010002,exact
+Delta,Bomadi,NG010003,exact
+Delta,Burutu,NG010004,exact
+Delta,Ethiope East,NG010005,exact
+Delta,Ethiope West,NG010006,exact
+Delta,Ika North East,NG010007,exact
+Delta,Ika South,NG010008,exact
+Delta,Isoko North,NG010009,exact
+Delta,Isoko South,NG010010,exact
+Delta,Ndokwa East,NG010011,exact
+Delta,Ndokwa West,NG010012,exact
+Delta,Okpe,NG010013,exact
+Delta,Oshimili North,NG010014,exact
+Delta,Oshimili South,NG010015,exact
+Delta,Patani,NG010016,exact
+Delta,Sapele,NG010017,exact
+Delta,Udu,NG010018,exact
+Delta,Ughelli North,NG010019,exact
+Delta,Ughelli South,NG010020,exact
+Delta,Ukwuani,NG010021,exact
+Delta,Uvwie,NG010022,exact
+Delta,Warri North,NG010023,exact
+Delta,Warri South,NG010024,exact
+Delta,Warri South West,NG010025,exact
+Ebonyi,Abakaliki,NG011001,exact
+Ebonyi,Afikpo North,NG011002,exact
+Ebonyi,Afikpo South,NG011003,exact
+Ebonyi,Ebonyi,NG011004,exact
+Ebonyi,Ezza North,NG011005,exact
+Ebonyi,Ezza South,NG011006,exact
+Ebonyi,Ikwo,NG011007,exact
+Ebonyi,Ishielu,NG011008,exact
+Ebonyi,Ivo,NG011009,exact
+Ebonyi,Izzi,NG011010,exact
+Ebonyi,Ohaozara,NG011011,exact
+Ebonyi,Ohaukwu,NG011012,exact
+Ebonyi,Onicha,NG011013,exact
+Edo,Akoko-Edo,NG012001,exact
+Edo,Egor,NG012002,exact
+Edo,Esan Central,NG012003,exact
+Edo,Esan North East,NG012004,exact
+Edo,Esan South East,NG012005,exact
+Edo,Esan West,NG012006,exact
+Edo,Etsako Central,NG012007,exact
+Edo,Etsako East,NG012008,exact
+Edo,Etsako West,NG012009,exact
+Edo,Igueben,NG012010,exact
+Edo,Ikpoba-Okha,NG012011,exact
+Edo,Oredo,NG012012,exact
+Edo,Orhionmwon,NG012013,exact
+Edo,Ovia North East,NG012014,exact
+Edo,Ovia South West,NG012015,exact
+Edo,Owan East,NG012016,exact
+Edo,Owan West,NG012017,exact
+Edo,Uhunmwonde,NG012018,exact
+Ekiti,Ado Ekiti,NG013001,exact
+Ekiti,Efon-Alayee,NG013003,spelling_table
+Ekiti,Ekiti East,NG013004,exact
+Ekiti,Ekiti South West,NG013005,exact
+Ekiti,Ekiti West,NG013006,exact
+Ekiti,Emure,NG013007,exact
+Ekiti,Gboyin,NG013002,spelling_table
+Ekiti,Idosi-Osi,NG013008,spelling_table
+Ekiti,Ijero,NG013009,exact
+Ekiti,Ikere,NG013010,exact
+Ekiti,Ikole,NG013011,exact
+Ekiti,Ilemeji,NG013012,spelling_table
+Ekiti,Irepodun/Ifelodun,NG013013,exact
+Ekiti,Ise/Orun,NG013014,exact
+Ekiti,Moba,NG013015,exact
+Ekiti,Oye,NG013016,exact
+Enugu,Aninri,NG014001,exact
+Enugu,Awgu,NG014002,exact
+Enugu,Enugu East,NG014003,exact
+Enugu,Enugu North,NG014004,exact
+Enugu,Enugu South,NG014005,exact
+Enugu,Ezeagu,NG014006,exact
+Enugu,Igbo-Etiti,NG014007,exact
+Enugu,Igbo-Eze North,NG014008,exact
+Enugu,Igbo-Eze South,NG014009,exact
+Enugu,Isi-Uzo,NG014010,exact
+Enugu,Nkanu East,NG014011,exact
+Enugu,Nkanu West,NG014012,exact
+Enugu,Nsukka,NG014013,exact
+Enugu,Oji-River,NG014014,exact
+Enugu,Udenu,NG014015,exact
+Enugu,Udi,NG014016,exact
+Enugu,Uzo-Uwani,NG014017,exact
+Federal Capital Territory,Abaji,NG015001,exact
+Federal Capital Territory,Abuja Municipal,NG015002,exact
+Federal Capital Territory,Bwari,NG015003,exact
+Federal Capital Territory,Gwagwalada,NG015004,exact
+Federal Capital Territory,Kuje,NG015005,exact
+Federal Capital Territory,Kwali,NG015006,exact
+Gombe,Akko,NG016001,exact
+Gombe,Balanga,NG016002,exact
+Gombe,Billiri,NG016003,exact
+Gombe,Dukku,NG016004,exact
+Gombe,Funakaye,NG016005,exact
+Gombe,Gombe,NG016006,exact
+Gombe,Kaltungo,NG016007,exact
+Gombe,Kwami,NG016008,exact
+Gombe,Nafada,NG016009,exact
+Gombe,Shomgom,NG016010,exact
+Gombe,Yamaltu/Deba,NG016011,exact
+Imo,Aboh-Mbaise,NG017001,exact
+Imo,Ahiazu-Mbaise,NG017002,exact
+Imo,Ehime-Mbano,NG017003,exact
+Imo,Ezinihitte,NG017004,exact
+Imo,Ideato North,NG017005,exact
+Imo,Ideato South,NG017006,exact
+Imo,Ihitte/Uboma,NG017007,exact
+Imo,Ikeduru,NG017008,exact
+Imo,Isiala Mbano,NG017009,exact
+Imo,Isu,NG017010,exact
+Imo,Mbaitoli,NG017011,exact
+Imo,Ngor-Okpala,NG017012,exact
+Imo,Njaba,NG017013,exact
+Imo,Nkwerre,NG017014,exact
+Imo,Nwangele,NG017015,exact
+Imo,Obowo,NG017016,exact
+Imo,Oguta,NG017017,exact
+Imo,Ohaji/Egbema,NG017018,exact
+Imo,Okigwe,NG017019,exact
+Imo,Orlu,NG017020,exact
+Imo,Orsu,NG017021,exact
+Imo,Oru East,NG017022,exact
+Imo,Oru West,NG017023,exact
+Imo,Owerri North,NG017024,exact
+Imo,Owerri West,NG017025,exact
+Imo,Owerri-Municipal,NG017026,exact
+Imo,Unuimo,NG017027,exact
+Jigawa,Auyo,NG018001,exact
+Jigawa,Babura,NG018002,exact
+Jigawa,Biriniwa,NG018003,exact
+Jigawa,Birni Kudu,NG018004,exact
+Jigawa,Buji,NG018005,exact
+Jigawa,Dutse,NG018006,exact
+Jigawa,Gagarawa,NG018007,exact
+Jigawa,Garki,NG018008,exact
+Jigawa,Gumel,NG018009,exact
+Jigawa,Guri,NG018010,exact
+Jigawa,Gwaram,NG018011,exact
+Jigawa,Gwiwa,NG018012,exact
+Jigawa,Hadejia,NG018013,exact
+Jigawa,Jahun,NG018014,exact
+Jigawa,Kafin Hausa,NG018015,exact
+Jigawa,Kaugama,NG018016,exact
+Jigawa,Kazaure,NG018017,exact
+Jigawa,Kiri Kasamma,NG018018,exact
+Jigawa,Maigatari,NG018020,exact
+Jigawa,Malam Madori,NG018021,exact
+Jigawa,Miga,NG018022,exact
+Jigawa,Ringim,NG018023,exact
+Jigawa,Roni,NG018024,exact
+Jigawa,Sule-Tankarkar,NG018025,exact
+Jigawa,Taura,NG018026,exact
+Jigawa,Yankwashi,NG018027,exact
+Jigawa,kiyawa,NG018019,exact
+Kaduna,Birnin-Gwari,NG019001,exact
+Kaduna,Chikun,NG019002,exact
+Kaduna,Giwa,NG019003,exact
+Kaduna,Igabi,NG019004,exact
+Kaduna,Ikara,NG019005,exact
+Kaduna,Jaba,NG019006,exact
+Kaduna,Jema'a,NG019007,exact
+Kaduna,Kachia,NG019008,exact
+Kaduna,Kaduna North,NG019009,exact
+Kaduna,Kaduna South,NG019010,exact
+Kaduna,Kagarko,NG019011,exact
+Kaduna,Kajuru,NG019012,exact
+Kaduna,Kaura,NG019013,exact
+Kaduna,Kauru,NG019014,exact
+Kaduna,Kubau,NG019015,exact
+Kaduna,Kudan,NG019016,exact
+Kaduna,Lere,NG019017,exact
+Kaduna,Markafi,NG019018,exact
+Kaduna,Sabon-Gari,NG019019,exact
+Kaduna,Sanga,NG019020,exact
+Kaduna,Soba,NG019021,exact
+Kaduna,Zango-Kataf,NG019022,exact
+Kaduna,Zaria,NG019023,exact
+Kano,Ajingi,NG020001,exact
+Kano,Albasu,NG020002,exact
+Kano,Bagwai,NG020003,exact
+Kano,Bebeji,NG020004,exact
+Kano,Bichi,NG020005,exact
+Kano,Bunkure,NG020006,exact
+Kano,Dala,NG020007,exact
+Kano,Dambatta,NG020008,exact
+Kano,Dawakin Kudu,NG020009,exact
+Kano,Dawakin Tofa,NG020010,exact
+Kano,Doguwa,NG020011,exact
+Kano,Fagge,NG020012,exact
+Kano,Gabasawa,NG020013,exact
+Kano,Garko,NG020014,exact
+Kano,Garum Mallam,NG020015,exact
+Kano,Gaya,NG020016,exact
+Kano,Gezawa,NG020017,exact
+Kano,Gwale,NG020018,exact
+Kano,Gwarzo,NG020019,exact
+Kano,Kabo,NG020020,exact
+Kano,Kano Municipal,NG020021,exact
+Kano,Karaye,NG020022,exact
+Kano,Kibiya,NG020023,exact
+Kano,Kiru,NG020024,exact
+Kano,Kumbotso,NG020025,exact
+Kano,Kunchi,NG020026,exact
+Kano,Kura,NG020027,exact
+Kano,Madobi,NG020028,exact
+Kano,Makoda,NG020029,exact
+Kano,Minjibir,NG020030,exact
+Kano,Nasarawa1,NG020031,suffix_strip
+Kano,Rano,NG020032,exact
+Kano,Rimin Gado,NG020033,exact
+Kano,Rogo,NG020034,exact
+Kano,Shanono,NG020035,exact
+Kano,Sumaila,NG020036,exact
+Kano,Takali,NG020037,spelling_table
+Kano,Tarauni,NG020038,exact
+Kano,Tofa,NG020039,exact
+Kano,Tsanyawa,NG020040,exact
+Kano,Tudun Wada,NG020041,exact
+Kano,Ungogo,NG020042,exact
+Kano,Warawa,NG020043,exact
+Kano,Wudil,NG020044,exact
+Katsina,Bakori,NG021001,exact
+Katsina,Batagarawa,NG021002,exact
+Katsina,Batsari,NG021003,exact
+Katsina,Baure,NG021004,exact
+Katsina,Bindawa,NG021005,exact
+Katsina,Charanchi,NG021006,exact
+Katsina,Dan Musa,NG021007,exact
+Katsina,Dandume,NG021008,exact
+Katsina,Danja,NG021009,exact
+Katsina,Daura,NG021010,exact
+Katsina,Dutsi,NG021011,exact
+Katsina,Dutsin-Ma,NG021012,exact
+Katsina,Faskari,NG021013,exact
+Katsina,Funtua,NG021014,exact
+Katsina,Ingawa,NG021015,exact
+Katsina,Jibia,NG021016,exact
+Katsina,Kafur,NG021017,exact
+Katsina,Kankara,NG021019,exact
+Katsina,Kankia,NG021020,exact
+Katsina,Katsina,NG021021,exact
+Katsina,Kurfi,NG021022,exact
+Katsina,Kusada,NG021023,exact
+Katsina,Mai'Adua,NG021024,exact
+Katsina,Malumfashi,NG021025,exact
+Katsina,Mani,NG021026,exact
+Katsina,Mashi,NG021027,exact
+Katsina,Matazuu,NG021028,spelling_table
+Katsina,Musawa,NG021029,exact
+Katsina,Rimi,NG021030,exact
+Katsina,Sabuwa,NG021031,exact
+Katsina,Safana,NG021032,exact
+Katsina,Sandamu,NG021033,exact
+Katsina,Zango,NG021034,exact
+Katsina,kaita,NG021018,exact
+Kebbi,Aleiro,NG022001,exact
+Kebbi,Arewa-Dandi,NG022002,exact
+Kebbi,Argungu,NG022003,exact
+Kebbi,Augie,NG022004,exact
+Kebbi,Bagudo,NG022005,exact
+Kebbi,Birnin Kebbi,NG022006,exact
+Kebbi,Bunza,NG022007,exact
+Kebbi,Dandi,NG022008,exact
+Kebbi,Fakai,NG022009,exact
+Kebbi,Gwandu,NG022010,exact
+Kebbi,Jega,NG022011,exact
+Kebbi,Kalgo,NG022012,exact
+Kebbi,Koko/Besse,NG022013,exact
+Kebbi,Maiyama,NG022014,exact
+Kebbi,Ngaski,NG022015,exact
+Kebbi,Sakaba,NG022016,exact
+Kebbi,Shanga,NG022017,exact
+Kebbi,Suru,NG022018,exact
+Kebbi,Wasagu/Danko,NG022019,exact
+Kebbi,Yauri,NG022020,exact
+Kebbi,Zuru,NG022021,exact
+Kogi,Adavi,NG023001,exact
+Kogi,Ajaokuta,NG023002,exact
+Kogi,Ankpa,NG023003,exact
+Kogi,Bassa1,NG023004,suffix_strip
+Kogi,Dekina,NG023005,exact
+Kogi,Ibaji,NG023006,exact
+Kogi,Idah,NG023007,exact
+Kogi,Igalamela-Odolu,NG023008,exact
+Kogi,Ijumu,NG023009,exact
+Kogi,Kabba/Bunu,NG023010,exact
+Kogi,Kogi,NG023011,exact
+Kogi,Lokoja,NG023012,exact
+Kogi,Mopa-Muro,NG023013,exact
+Kogi,Ofu,NG023014,exact
+Kogi,Ogori/Mangongo,NG023015,spelling_table
+Kogi,Okehi,NG023016,exact
+Kogi,Okene,NG023017,exact
+Kogi,Olamabolo,NG023018,exact
+Kogi,Omala,NG023019,exact
+Kogi,Yagba East,NG023020,exact
+Kogi,Yagba West,NG023021,exact
+Kwara,Asa,NG024001,exact
+Kwara,Baruten,NG024002,exact
+Kwara,Edu,NG024003,exact
+Kwara,Ekiti,NG024004,exact
+Kwara,Ifelodun1,NG024005,suffix_strip
+Kwara,Ilorin East,NG024006,exact
+Kwara,Ilorin South,NG024007,exact
+Kwara,Ilorin West,NG024008,exact
+Kwara,Irepodun1,NG024009,suffix_strip
+Kwara,Isin,NG024010,exact
+Kwara,Kaiama,NG024011,exact
+Kwara,Moro,NG024012,exact
+Kwara,Offa,NG024013,exact
+Kwara,Oke-Ero,NG024014,exact
+Kwara,Oyun,NG024015,exact
+Kwara,Pategi,NG024016,exact
+Lagos,Agege,NG025001,exact
+Lagos,Ajeromi-Ifelodun,NG025002,exact
+Lagos,Alimosho,NG025003,exact
+Lagos,Amuwo-Odofin,NG025004,exact
+Lagos,Apapa,NG025005,exact
+Lagos,Badagry,NG025006,exact
+Lagos,Epe,NG025007,exact
+Lagos,Eti-Osa,NG025008,exact
+Lagos,Ibeju/Lekki,NG025009,exact
+Lagos,Ifako-Ijaye,NG025010,exact
+Lagos,Ikeja,NG025011,exact
+Lagos,Ikorodu,NG025012,exact
+Lagos,Kosofe,NG025013,exact
+Lagos,Lagos Island,NG025014,exact
+Lagos,Lagos Mainland,NG025015,exact
+Lagos,Mushin,NG025016,exact
+Lagos,Ojo,NG025017,exact
+Lagos,Oshodi-Isolo,NG025018,exact
+Lagos,Shomolu,NG025019,exact
+Lagos,Surulere1,NG025020,suffix_strip
+Nasarawa,Akwanga,NG026001,exact
+Nasarawa,Awe,NG026002,exact
+Nasarawa,Doma,NG026003,exact
+Nasarawa,Karu,NG026004,exact
+Nasarawa,Keana,NG026005,exact
+Nasarawa,Keffi,NG026006,exact
+Nasarawa,Kokona,NG026007,exact
+Nasarawa,Lafia,NG026008,exact
+Nasarawa,Nasarawa-Eggon,NG026010,exact
+Nasarawa,Nasarawa2,NG026009,suffix_strip
+Nasarawa,Obi2,NG026011,suffix_strip
+Nasarawa,Toto,NG026012,exact
+Nasarawa,Wamba,NG026013,exact
+Niger,Agaie,NG027001,exact
+Niger,Agwara,NG027002,exact
+Niger,Bida,NG027003,exact
+Niger,Borgu,NG027004,exact
+Niger,Bosso,NG027005,exact
+Niger,Chanchaga,NG027006,exact
+Niger,Edati,NG027007,exact
+Niger,Gbako,NG027008,exact
+Niger,Gurara,NG027009,exact
+Niger,Katcha,NG027010,exact
+Niger,Kontagora,NG027011,exact
+Niger,Lapai,NG027012,exact
+Niger,Lavun,NG027013,exact
+Niger,Magama,NG027014,exact
+Niger,Mariga,NG027015,exact
+Niger,Mashegu,NG027016,exact
+Niger,Mokwa,NG027017,exact
+Niger,Muya,NG027018,exact
+Niger,Pailoro,NG027019,spelling_table
+Niger,Rafi,NG027020,exact
+Niger,Rijau,NG027021,exact
+Niger,Shiroro,NG027022,exact
+Niger,Suleja,NG027023,exact
+Niger,Tafa,NG027024,exact
+Niger,Wushishi,NG027025,exact
+Ogun,Abeokuta North,NG028001,exact
+Ogun,Abeokuta South,NG028002,exact
+Ogun,Ado-Odo/Ota,NG028003,exact
+Ogun,Egbado North,NG028004,exact
+Ogun,Egbado South,NG028005,exact
+Ogun,Ewekoro,NG028006,exact
+Ogun,Ifo,NG028007,exact
+Ogun,Ijebu East,NG028008,exact
+Ogun,Ijebu North,NG028009,exact
+Ogun,Ijebu North East,NG028010,exact
+Ogun,Ijebu ode,NG028011,exact
+Ogun,Ikenne,NG028012,exact
+Ogun,Imeko-Afon,NG028013,exact
+Ogun,Ipokia,NG028014,exact
+Ogun,Obafemi-Owode,NG028015,exact
+Ogun,Odeda,NG028016,exact
+Ogun,Odogbolu,NG028017,exact
+Ogun,Ogun waterside,NG028018,exact
+Ogun,Remo North,NG028019,exact
+Ogun,Shagamu,NG028020,exact
+Ondo,Akoko North East,NG029001,exact
+Ondo,Akoko North West,NG029002,exact
+Ondo,Akoko South East,NG029003,exact
+Ondo,Akoko South West,NG029004,exact
+Ondo,Akure North,NG029005,exact
+Ondo,Akure South,NG029006,exact
+Ondo,Ese-Odo,NG029007,exact
+Ondo,Idanre,NG029008,exact
+Ondo,Ifedore,NG029009,exact
+Ondo,Ilaje,NG029010,exact
+Ondo,Ile-Oluji-Okeigbo,NG029011,exact
+Ondo,Irele,NG029012,exact
+Ondo,Odigbo,NG029013,exact
+Ondo,Okitipupa,NG029014,exact
+Ondo,Ondo East,NG029015,exact
+Ondo,Ondo West,NG029016,exact
+Ondo,Ose,NG029017,exact
+Ondo,Owo,NG029018,exact
+Osun,Aiyedade,NG030001,exact
+Osun,Aiyedire,NG030002,exact
+Osun,Atakumosa East,NG030003,exact
+Osun,Atakumosa West,NG030004,exact
+Osun,Boluwaduro,NG030005,exact
+Osun,Boripe,NG030006,exact
+Osun,Ede North,NG030007,exact
+Osun,Ede South,NG030008,exact
+Osun,Egbedore,NG030009,exact
+Osun,Ejigbo,NG030010,exact
+Osun,Ife Central,NG030011,exact
+Osun,Ife East,NG030012,exact
+Osun,Ife North,NG030013,exact
+Osun,Ife South,NG030014,exact
+Osun,Ifedayo,NG030015,exact
+Osun,Ifelodun2,NG030016,suffix_strip
+Osun,Ila,NG030017,exact
+Osun,Ilesha East,NG030018,exact
+Osun,Ilesha West,NG030019,exact
+Osun,Irepodun2,NG030020,suffix_strip
+Osun,Irewole,NG030021,exact
+Osun,Isokan,NG030022,exact
+Osun,Iwo,NG030023,exact
+Osun,Obokun,NG030024,exact
+Osun,Odo-Otin,NG030025,exact
+Osun,Ola-oluwa,NG030026,exact
+Osun,Olorunda,NG030027,exact
+Osun,Oriade,NG030028,exact
+Osun,Orolu,NG030029,exact
+Osun,Osogbo,NG030030,exact
+Oyo,Afijio,NG031001,exact
+Oyo,Akinyele,NG031002,exact
+Oyo,Atiba,NG031003,exact
+Oyo,Atigbo,NG031004,exact
+Oyo,Egbeda,NG031005,exact
+Oyo,Ibadan North,NG031006,exact
+Oyo,Ibadan North East,NG031007,exact
+Oyo,Ibadan North West,NG031008,exact
+Oyo,Ibadan South East,NG031009,exact
+Oyo,Ibadan South West,NG031010,exact
+Oyo,Ibarapa Central,NG031011,exact
+Oyo,Ibarapa East,NG031012,exact
+Oyo,Ibarapa North,NG031013,exact
+Oyo,Ido,NG031014,exact
+Oyo,Irepo,NG031015,exact
+Oyo,Iseyin,NG031016,exact
+Oyo,Itesiwaju,NG031017,exact
+Oyo,Iwajowa,NG031018,exact
+Oyo,Kajola,NG031019,exact
+Oyo,Lagelu,NG031020,exact
+Oyo,Ogbomosho North,NG031021,exact
+Oyo,Ogbomosho South,NG031022,exact
+Oyo,Ogo Oluwa,NG031023,exact
+Oyo,Olorunsogo,NG031024,exact
+Oyo,Oluyole,NG031025,exact
+Oyo,Ona-Ara,NG031026,exact
+Oyo,Orelope,NG031027,exact
+Oyo,Ori Ire,NG031028,exact
+Oyo,Oyo East,NG031029,exact
+Oyo,Oyo West,NG031030,exact
+Oyo,Saki East,NG031031,exact
+Oyo,Saki West,NG031032,exact
+Oyo,Surulere2,NG031033,suffix_strip
+Plateau,Barikin Ladi,NG032001,exact
+Plateau,Bassa2,NG032002,suffix_strip
+Plateau,Bokkos,NG032003,exact
+Plateau,Jos East,NG032004,exact
+Plateau,Jos North,NG032005,exact
+Plateau,Jos South,NG032006,exact
+Plateau,Kanam,NG032007,exact
+Plateau,Kanke,NG032008,exact
+Plateau,Langtang North,NG032009,exact
+Plateau,Langtang South,NG032010,exact
+Plateau,Mangu,NG032011,exact
+Plateau,Mikang,NG032012,exact
+Plateau,Pankshin,NG032013,exact
+Plateau,Qua'an Pan,NG032014,exact
+Plateau,Riyom,NG032015,exact
+Plateau,Shendam,NG032016,exact
+Plateau,Wase,NG032017,exact
+Rivers,Abua/Odual,NG033001,exact
+Rivers,Ahoada East,NG033002,exact
+Rivers,Ahoada West,NG033003,exact
+Rivers,Akuku Toru,NG033004,exact
+Rivers,Andoni,NG033005,exact
+Rivers,Asari-Toru,NG033006,exact
+Rivers,Bonny,NG033007,exact
+Rivers,Degema,NG033008,exact
+Rivers,Eleme,NG033009,exact
+Rivers,Emohua,NG033010,exact
+Rivers,Etche,NG033011,exact
+Rivers,Gokana,NG033012,exact
+Rivers,Ikwerre,NG033013,exact
+Rivers,Khana,NG033014,exact
+Rivers,Obia/Akpor,NG033015,exact
+Rivers,Ogba/Egbema/Ndoni,NG033016,exact
+Rivers,Ogu/Bolo,NG033017,exact
+Rivers,Okrika,NG033018,exact
+Rivers,Omumma,NG033019,exact
+Rivers,Opobo/Nkoro,NG033020,exact
+Rivers,Oyigbo,NG033021,exact
+Rivers,Port-Harcourt,NG033022,exact
+Rivers,Tai,NG033023,exact
+Sokoto,Binji,NG034001,exact
+Sokoto,Bodinga,NG034002,exact
+Sokoto,Dange-Shnsi,NG034003,spelling_table
+Sokoto,Gada,NG034004,exact
+Sokoto,Gawabawa,NG034005,spelling_table
+Sokoto,Goronyo,NG034006,exact
+Sokoto,Gudu,NG034007,exact
+Sokoto,Illela,NG034008,exact
+Sokoto,Isa,NG034009,exact
+Sokoto,Kebbe,NG034010,exact
+Sokoto,Kware,NG034011,exact
+Sokoto,Rabah,NG034012,exact
+Sokoto,Sabon Birni,NG034013,exact
+Sokoto,Shagari,NG034014,exact
+Sokoto,Silame,NG034015,exact
+Sokoto,Sokoto North,NG034016,exact
+Sokoto,Sokoto South,NG034017,exact
+Sokoto,Tambuwal,NG034018,exact
+Sokoto,Tangaza,NG034019,exact
+Sokoto,Tureta,NG034020,exact
+Sokoto,Wamako,NG034021,exact
+Sokoto,Wurno,NG034022,exact
+Sokoto,Yabo,NG034023,exact
+Taraba,Ardo-Kola,NG035001,exact
+Taraba,Bali,NG035002,exact
+Taraba,Donga,NG035003,exact
+Taraba,Gashaka,NG035004,exact
+Taraba,Gassol,NG035005,exact
+Taraba,Ibi,NG035006,exact
+Taraba,Jalingo,NG035007,exact
+Taraba,Karin-Lamido,NG035008,spelling_table
+Taraba,Kurmi,NG035009,exact
+Taraba,Lau,NG035010,exact
+Taraba,Sardauna,NG035011,exact
+Taraba,Takum,NG035012,exact
+Taraba,Ussa,NG035013,exact
+Taraba,Wukari,NG035014,exact
+Taraba,Yorro,NG035015,exact
+Taraba,Zing,NG035016,exact
+Yobe,Bade,NG036001,exact
+Yobe,Bursari,NG036002,exact
+Yobe,Damaturu,NG036003,exact
+Yobe,Fika,NG036004,exact
+Yobe,Fune,NG036005,exact
+Yobe,Geidam,NG036006,exact
+Yobe,Gujba,NG036007,exact
+Yobe,Gulani,NG036008,exact
+Yobe,Jakusko,NG036009,exact
+Yobe,Karasuwa,NG036010,exact
+Yobe,Machina,NG036011,exact
+Yobe,Nangere,NG036012,exact
+Yobe,Nguru,NG036013,exact
+Yobe,Potiskum,NG036014,exact
+Yobe,Tarmua,NG036015,exact
+Yobe,Yunusari,NG036016,exact
+Yobe,Yusufari,NG036017,exact
+Zamfara,Anka,NG037001,exact
+Zamfara,Bakura,NG037002,exact
+Zamfara,Birnin Magaji,NG037003,exact
+Zamfara,Bukkuyum,NG037004,exact
+Zamfara,Bungudu,NG037005,exact
+Zamfara,Gummi,NG037006,exact
+Zamfara,Gusau,NG037007,exact
+Zamfara,Kaura-Namoda,NG037008,exact
+Zamfara,Maradun,NG037009,exact
+Zamfara,Maru,NG037010,exact
+Zamfara,Shinkafi,NG037011,exact
+Zamfara,Talata Mafara,NG037012,exact
+Zamfara,Tsafe,NG037013,exact
+Zamfara,Zurmi,NG037014,exact
