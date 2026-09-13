@@ -219,8 +219,23 @@ be audited without re-running anything.
 | `data/processed/nmsp_2021_2025_lga_intervention_mix.csv` | Week 1 extraction, unchanged |
 | `scripts/download_cod_data.py` | fetches the raw files, prints checksums |
 | `scripts/build_admin_gpkg.py` | builds the GeoPackage, fails loudly on an unmatched name |
+| `scripts/make_qml_styles.py` | writes the three QGIS styles below |
+| `scripts/build_qgis_project.py` | rebuilds `qgis/snt.qgz` from the GeoPackage and the styles |
 | `qgis/snt.qgz` | the QGIS project — both layers, LGAs styled by `intervention_mix` |
+| `qgis/adm2_intervention_mix.qml` | all seven mixes, two-axis palette |
+| `qgis/adm2_net_type.qml` | net type alone, three classes |
+| `qgis/adm2_chemoprevention.qml` | chemoprevention alone, three classes |
 | `qgis/intervention_mix_by_lga.png` | map export from that project |
+
+**A note on the palette.** The seven mixes are not seven unrelated things —
+they are two axes crossed. So hue carries chemoprevention (warm = SMC,
+cool = IPTi, grey = neither) and lightness carries net type (pale = standard,
+mid = PBO, dark = urban). Every border on the finished map then says which
+axis moved: a hue change is a different chemoprevention, a shade change is a
+different net. The two single-axis styles keep the same hues, so all three
+maps agree — orange means SMC in every one of them. LGA outlines are 0.06 mm
+grey hairlines: at national extent, 774 black borders put more ink on the page
+than the fills do.
 
 **GeoPackage layers.**
 

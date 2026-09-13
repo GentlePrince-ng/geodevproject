@@ -62,9 +62,12 @@ The goal is a reproducible geospatial intelligence system, not a static map.
 │   ├── extract_nmsp_annex1.py        NMSP 2021–2025 Annex 1 → LGA intervention mix
 │   ├── extract_nmis2025_parasitaemia.py   NMIS 2025 → state-level parasitaemia
 │   ├── download_cod_data.py          HDX boundaries + population, with checksums
-│   └── build_admin_gpkg.py           Joins all three into the project GeoPackage
+│   ├── build_admin_gpkg.py           Joins all three into the project GeoPackage
+│   ├── make_qml_styles.py            Writes the three QGIS styles
+│   └── build_qgis_project.py         Rebuilds qgis/snt.qgz (needs the QGIS Python)
 ├── qgis/
 │   ├── snt.qgz                       QGIS project
+│   ├── adm2_*.qml                    Three layer styles: the full mix, and each axis alone
 │   └── intervention_mix_by_lga.png   Map export
 └── data/
     ├── raw/                          Public source files (not committed; see data/raw/README.md)
