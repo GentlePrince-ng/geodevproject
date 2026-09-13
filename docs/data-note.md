@@ -221,7 +221,9 @@ be audited without re-running anything.
 | `scripts/build_admin_gpkg.py` | builds the GeoPackage, fails loudly on an unmatched name |
 | `scripts/make_qml_styles.py` | writes the three QGIS styles below |
 | `scripts/build_qgis_project.py` | rebuilds `qgis/snt.qgz` from the GeoPackage and the styles |
-| `qgis/snt.qgz` | the QGIS project — both layers, LGAs styled by `intervention_mix` |
+| `scripts/build_qgis_layout.py` | adds the three-panel print layout and exports it |
+| `qgis/snt.qgz` | the QGIS project — both layers, LGAs styled by `intervention_mix`, plus the "Three axes" layout |
+| `qgis/three_axes.png` | the three-panel figure |
 | `qgis/adm2_intervention_mix.qml` | all seven mixes, two-axis palette |
 | `qgis/adm2_net_type.qml` | net type alone, three classes |
 | `qgis/adm2_chemoprevention.qml` | chemoprevention alone, three classes |

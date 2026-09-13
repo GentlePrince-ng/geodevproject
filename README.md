@@ -64,10 +64,12 @@ The goal is a reproducible geospatial intelligence system, not a static map.
 │   ├── download_cod_data.py          HDX boundaries + population, with checksums
 │   ├── build_admin_gpkg.py           Joins all three into the project GeoPackage
 │   ├── make_qml_styles.py            Writes the three QGIS styles
-│   └── build_qgis_project.py         Rebuilds qgis/snt.qgz (needs the QGIS Python)
+│   ├── build_qgis_project.py         Rebuilds qgis/snt.qgz (needs the QGIS Python)
+│   └── build_qgis_layout.py          Adds the three-panel layout (needs the QGIS Python)
 ├── qgis/
 │   ├── snt.qgz                       QGIS project
 │   ├── adm2_*.qml                    Three layer styles: the full mix, and each axis alone
+│   ├── three_axes.png                Three-panel figure: the mix, then each axis alone
 │   └── intervention_mix_by_lga.png   Map export
 └── data/
     ├── raw/                          Public source files (not committed; see data/raw/README.md)
