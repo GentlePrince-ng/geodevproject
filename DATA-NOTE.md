@@ -1,4 +1,4 @@
-# Data note — Week 2
+# Data note — Week 2 (data acquisition)
 
 *Nigeria Malaria SNT Spatial Intelligence System. Written 13 September 2026.*
 

@@ -3,6 +3,19 @@
 A GeoDev Lab Africa Cohort 1 project mapping the geography of malaria
 intervention assignments under subnational tailoring (SNT) in Nigeria.
 
+## The weekly notes
+
+| Note | Week | What it records |
+|---|---|---|
+| **[`DATA-NOTE.md`](DATA-NOTE.md)** | 2 | Every dataset: source link, feature count, key columns, geometry type, and every gap found |
+| **[`QUALITY-NOTE.md`](QUALITY-NOTE.md)** | 3 | The working CRS and why, what was reprojected and clipped, the five quality checks, and the problems found |
+
+**Analysis-ready file:**
+[`data/processed/nga_snt_analysis_ready.gpkg`](data/processed/nga_snt_analysis_ready.gpkg)
+— three layers, 774 LGAs, ESRI:102022 (Africa Albers Equal Area), committed.
+Quality checks are machine-readable in
+[`data/processed/qc_report.json`](data/processed/qc_report.json).
+
 ## Research question
 
 > **Where in Nigeria does subnational tailoring actually assign different
@@ -33,7 +46,7 @@ Four datasets, each with its source link, in
 **All four are now downloaded, opened in QGIS and joined into one GeoPackage**
 (`data/processed/nga_cod_admin.gpkg`, committed). Feature counts, key columns,
 geometry types and every gap found are written up in
-[`docs/data-note.md`](docs/data-note.md).
+[`DATA-NOTE.md`](DATA-NOTE.md).
 
 The headline: the NMSP table carries no PCODEs, only names, and **774 of 774
 LGAs still reach a PCODE** — 746 by exact match, 12 by stripping the NMSP's
@@ -53,9 +66,10 @@ The goal is a reproducible geospatial intelligence system, not a static map.
 ## What is in the repository so far
 
 ```
+├── DATA-NOTE.md                      Week 2 note: every dataset, its columns, its gaps
+├── QUALITY-NOTE.md                   Week 3 note: CRS, clip, five quality checks, problems
 ├── project-brief.md                  Question, study area, data, and what gets built
 ├── docs/
-│   ├── data-note.md                  Week 2: every dataset, its columns, and its gaps
 │   ├── data-sources.md               Source register for every dataset claimed
 │   └── data-feasibility.md           Log of what was actually tested and found
 ├── scripts/
@@ -63,6 +77,8 @@ The goal is a reproducible geospatial intelligence system, not a static map.
 │   ├── extract_nmis2025_parasitaemia.py   NMIS 2025 → state-level parasitaemia
 │   ├── download_cod_data.py          HDX boundaries + population, with checksums
 │   ├── build_admin_gpkg.py           Joins all three into the project GeoPackage
+│   ├── prepare_analysis_ready.py     Week 3: reproject, clip, five quality checks
+│   ├── plot_lagoon_gap.py            Renders the one coverage gap QC 4 found
 │   ├── make_qml_styles.py            Writes the three QGIS styles
 │   ├── build_qgis_project.py         Rebuilds qgis/snt.qgz (needs the QGIS Python)
 │   └── build_qgis_layout.py          Adds the three-panel layout (needs the QGIS Python)
@@ -70,10 +86,14 @@ The goal is a reproducible geospatial intelligence system, not a static map.
 │   ├── snt.qgz                       QGIS project
 │   ├── adm2_*.qml                    Three layer styles: the full mix, and each axis alone
 │   ├── three_axes.png                Three-panel figure: the mix, then each axis alone
+│   ├── coverage_gap_lagos_lagoon.png The 183 km² hole in the LGA coverage
 │   └── intervention_mix_by_lga.png   Map export
 └── data/
     ├── raw/                          Public source files (not committed; see data/raw/README.md)
-    └── processed/                    Extracted tables and nga_cod_admin.gpkg
+    └── processed/
+        ├── nga_cod_admin.gpkg        Week 2, EPSG:4326 — the archival build
+        ├── nga_snt_analysis_ready.gpkg   Week 3, ESRI:102022 — ANALYSIS-READY
+        └── qc_report.json            Every quality-check number, machine-readable
 ```
 
 ## Week 1 headline findings
@@ -166,6 +186,49 @@ LGAs with no COD population row: 1 (Bakassi)
 4. **The COD `admin3` layer is not a national ward layer.** Its 714 features
    cover Borno, Adamawa and Yobe only. Nigeria has roughly 8,800 wards.
 
+## Preparing the analysis-ready layers
+
+```bash
+pip install geopandas matplotlib
+python scripts/prepare_analysis_ready.py
+python scripts/plot_lagoon_gap.py        # optional: renders the QC 4 figure
+```
+
+Reprojects both layers to **ESRI:102022** (Africa Albers Equal Area Conic),
+builds the study area, clips to it, runs the five quality checks and writes
+`data/processed/nga_snt_analysis_ready.gpkg` plus `qc_report.json`. Full
+reasoning in [`QUALITY-NOTE.md`](QUALITY-NOTE.md). Expected output:
+
+```
+QC 1  national area  geodesic  909,749.6 km2 / projected 909,749.5 km2 (-0.00001%)
+QC 2  0 invalid, 0 empty, 0 null geometries
+QC 3  774/774 unique PCODEs, 0 orphan state codes
+QC 4  0 overlaps; 1 gap of 183.246 km2
+QC 5  7/3/3/3/2 classes as expected; nulls only city (707) and Bakassi (1)
+3 problem(s) recorded; 0 blocking.
+```
+
+## Week 3 headline findings
+
+1. **No single UTM zone works for Nigeria.** The country spans zones 31N–33N.
+   Tested against geodesic ground truth, UTM 33N inflates the far west by up to
+   **4.56%** per LGA. Africa Albers Equal Area is right everywhere at once —
+   worst per-LGA area error **0.025%** — so it is the working CRS.
+2. **183 km² of Nigeria belongs to no LGA.** The dissolved LGA coverage has
+   exactly one hole: **Lagos Lagoon**. The Lagos *state* polygon includes it,
+   the twenty Lagos *LGA* polygons do not, and the difference is the same
+   183.246 km² to three decimals.
+3. **That hole silently breaks four of the borders this project is about.**
+   Fourteen pairs of Lagos shore LGAs are not polygon-adjacent because the
+   water sits between them, and **four of those pairs carry different
+   intervention mixes** — Epe's standard LLINs against urban LLINs in Kosofe,
+   Lagos Island, Lagos Mainland and Shomolu. A default contiguity build drops
+   all four without a word. Flagged, not filled: assigning lagoon water to an
+   LGA would be inventing data.
+4. **The 774 LGAs otherwise tile the country exactly.** Zero overlapping pairs,
+   and the sum of the 774 areas equals the dissolved coverage to three decimal
+   places — nothing double-counted, nothing else unclaimed.
+
 ## Data ethics
 
 This repository contains only data derived from public documents. Restricted
@@ -179,6 +242,8 @@ See `project-brief.md` for the initial project definition.
 
 ## Status
 
-Month 1, Week 2 — spatial data acquired, joined and mapped. Next: build the
-LGA adjacency list and count how often neighbouring LGAs carry different
-intervention mixes.
+Month 1, Week 3 — data reprojected, clipped, quality-checked and written out
+as an analysis-ready GeoPackage. Next: build the LGA adjacency list and count
+how often neighbouring LGAs carry different intervention mixes, starting with
+the ruling QUALITY-NOTE.md §4.1 leaves open — whether two LGAs facing each
+other across Lagos Lagoon count as neighbours.

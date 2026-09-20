@@ -1,0 +1,153 @@
+{
+  "qc1_crs_integrity": {
+    "working_crs": "ESRI:102022",
+    "working_crs_name": "Africa_Albers_Equal_Area_Conic",
+    "source_crs": "EPSG:4326",
+    "geodesic_total_km2": 909749.6,
+    "projected_total_km2": 909749.5,
+    "national_area_error_pct": -1e-05,
+    "worst_lga_area_error_pct": 0.0252,
+    "mean_abs_lga_area_error_pct": 0.00014
+  },
+  "qc2_geometry_validity": {
+    "adm1_state": {
+      "features": 37,
+      "invalid": 0,
+      "empty": 0,
+      "null": 0
+    },
+    "adm2_lga": {
+      "features": 774,
+      "invalid": 0,
+      "empty": 0,
+      "null": 0
+    }
+  },
+  "clip": {
+    "study_area_km2": 909749.5,
+    "adm1_features_before": 37,
+    "adm1_features_after": 37,
+    "adm2_features_before": 774,
+    "adm2_features_after": 774,
+    "adm1_area_km2_before": 909932.758,
+    "adm1_area_km2_after": 909749.512,
+    "adm2_area_km2_before": 909749.512,
+    "adm2_area_km2_after": 909749.512,
+    "adm1_area_removed_km2": 183.246,
+    "adm2_area_removed_km2": 0.0
+  },
+  "qc3_identity_completeness": {
+    "adm2_expected": 774,
+    "adm2_actual": 774,
+    "adm2_pcode_unique": 774,
+    "adm2_pcode_null": 0,
+    "adm1_expected": 37,
+    "adm1_actual": 37,
+    "adm1_pcode_unique": 37,
+    "lga_state_codes_not_in_adm1": []
+  },
+  "qc4_coverage_topology": {
+    "candidate_overlap_pairs_tested": 0,
+    "overlaps_above_tolerance": 0,
+    "overlap_detail": [],
+    "interior_holes_in_coverage": 1,
+    "holes_above_tolerance": 1,
+    "largest_hole_km2": 183.245812,
+    "sum_of_lga_areas_km2": 909749.512,
+    "dissolved_coverage_km2": 909749.512,
+    "double_counted_km2": 0.0,
+    "sliver_tolerance_m2": 1000.0
+  },
+  "qc5_attribute_domains": {
+    "domains": {
+      "intervention_mix": {
+        "expected_classes": 7,
+        "observed_classes": 7,
+        "counts": {
+          "CM+IPTp+LLINs+IPTi": 319,
+          "CM+IPTp+PBO-LLINs+SMC": 258,
+          "CM+IPTp+LLINs+SMC": 106,
+          "CM+IPTp+UrbanLLINs+IPTi": 43,
+          "CM+IPTp+PBO-LLINs+IPTi": 24,
+          "CM+IPTp+UrbanLLINs+SMC": 19,
+          "CM+IPTp+UrbanLLINs": 5
+        }
+      },
+      "net_type": {
+        "expected_classes": 3,
+        "observed_classes": 3,
+        "counts": {
+          "LLINs": 425,
+          "PBO-LLINs": 282,
+          "UrbanLLINs": 67
+        }
+      },
+      "chemoprevention": {
+        "expected_classes": 3,
+        "observed_classes": 3,
+        "counts": {
+          "IPTi": 386,
+          "SMC": 383,
+          "none": 5
+        }
+      },
+      "match_method": {
+        "expected_classes": 3,
+        "observed_classes": 3,
+        "counts": {
+          "exact": 746,
+          "spelling_table": 16,
+          "suffix_strip": 12
+        }
+      },
+      "iccm": {
+        "expected_classes": 2,
+        "observed_classes": 2,
+        "counts": {
+          "No iCCM": 762,
+          "iCCM": 12
+        }
+      }
+    },
+    "nulls": {
+      "city": 707,
+      "pop_total_2020": 1,
+      "pop_u5_2020": 1
+    },
+    "lgas_without_population": [
+      "Bakassi"
+    ],
+    "national_pop_2020": 204909220,
+    "national_pop_u5_2020": 32207346
+  },
+  "output": {
+    "path": "data/processed/nga_snt_analysis_ready.gpkg",
+    "size_bytes": 3846144,
+    "crs": "ESRI:102022",
+    "layers": {
+      "study_area": 1,
+      "adm1_state": 37,
+      "adm2_lga": 774
+    }
+  },
+  "problems": [
+    {
+      "check": "clip",
+      "severity": "warning",
+      "detail": "clipping adm1_state removed 183.246 km2",
+      "action": "state and LGA layers do not cover the same ground"
+    },
+    {
+      "check": "QC4",
+      "severity": "warning",
+      "detail": "1 gaps in the LGA coverage, largest 183.245812 km2",
+      "action": "flagged, not filled - see QUALITY-NOTE.md"
+    },
+    {
+      "check": "QC5",
+      "severity": "known",
+      "detail": "1 LGA(s) with no population: ['Bakassi']",
+      "action": "kept and flagged; excluded from per-capita measures"
+    }
+  ]
+}
