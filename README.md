@@ -5,10 +5,11 @@ intervention assignments under subnational tailoring (SNT) in Nigeria.
 
 ## The weekly notes
 
-| Note | Week | What it records |
+| Week | Note | What it records |
 |---|---|---|
-| **[`DATA-NOTE.md`](DATA-NOTE.md)** | 2 | Every dataset: source link, feature count, key columns, geometry type, and every gap found |
-| **[`QUALITY-NOTE.md`](QUALITY-NOTE.md)** | 3 | The working CRS and why, what was reprojected and clipped, the five quality checks, and the problems found |
+| 1 | **[`docs/01-project-brief.md`](docs/01-project-brief.md)** | The question, the study area, the data it needs, and what gets built |
+| 2 | **[`docs/02-data-notes.md`](docs/02-data-notes.md)** | Every dataset: source link, feature count, key columns, geometry type, and every gap found |
+| 3 | **[`docs/03-data-preparation.md`](docs/03-data-preparation.md)** | The working CRS and why, what was reprojected and clipped, the five quality checks, and the problems found |
 
 **Analysis-ready file:**
 [`data/processed/nga_snt_analysis_ready.gpkg`](data/processed/nga_snt_analysis_ready.gpkg)
@@ -34,7 +35,7 @@ between an LGA and the LGAs it touches.
 ## The data
 
 Four datasets, each with its source link, in
-[`project-brief.md`](project-brief.md#the-data-i-need):
+[`docs/01-project-brief.md`](docs/01-project-brief.md#the-data-i-need):
 
 | # | Dataset | Source |
 |---|---|---|
@@ -46,7 +47,7 @@ Four datasets, each with its source link, in
 **All four are now downloaded, opened in QGIS and joined into one GeoPackage**
 (`data/processed/nga_cod_admin.gpkg`, committed). Feature counts, key columns,
 geometry types and every gap found are written up in
-[`DATA-NOTE.md`](DATA-NOTE.md).
+[`docs/02-data-notes.md`](docs/02-data-notes.md).
 
 The headline: the NMSP table carries no PCODEs, only names, and **774 of 774
 LGAs still reach a PCODE** — 746 by exact match, 12 by stripping the NMSP's
@@ -66,10 +67,11 @@ The goal is a reproducible geospatial intelligence system, not a static map.
 ## What is in the repository so far
 
 ```
-├── DATA-NOTE.md                      Week 2 note: every dataset, its columns, its gaps
-├── QUALITY-NOTE.md                   Week 3 note: CRS, clip, five quality checks, problems
-├── project-brief.md                  Question, study area, data, and what gets built
+├── README.md                         This file — the repository front page
 ├── docs/
+│   ├── 01-project-brief.md           Week 1: question, study area, data, what gets built
+│   ├── 02-data-notes.md              Week 2: every dataset, its columns, its gaps
+│   ├── 03-data-preparation.md        Week 3: CRS, clip, five quality checks, problems
 │   ├── data-sources.md               Source register for every dataset claimed
 │   └── data-feasibility.md           Log of what was actually tested and found
 ├── scripts/
@@ -111,7 +113,7 @@ The goal is a reproducible geospatial intelligence system, not a static map.
    intervention geography itself — fully answerable at LGA level, and needing no
    outcome data. The outcome association becomes Question 2, to be reported at
    the resolution the data actually support. Both are set out in
-   [`project-brief.md`](project-brief.md).
+   [`docs/01-project-brief.md`](docs/01-project-brief.md).
 4. **The 2026–2030 NMSP could not be located publicly**, so no source link is
    claimed for it. That gap is recorded, not filled with a guess.
 
@@ -197,7 +199,7 @@ python scripts/plot_lagoon_gap.py        # optional: renders the QC 4 figure
 Reprojects both layers to **ESRI:102022** (Africa Albers Equal Area Conic),
 builds the study area, clips to it, runs the five quality checks and writes
 `data/processed/nga_snt_analysis_ready.gpkg` plus `qc_report.json`. Full
-reasoning in [`QUALITY-NOTE.md`](QUALITY-NOTE.md). Expected output:
+reasoning in [`docs/03-data-preparation.md`](docs/03-data-preparation.md). Expected output:
 
 ```
 QC 1  national area  geodesic  909,749.6 km2 / projected 909,749.5 km2 (-0.00001%)
@@ -238,12 +240,12 @@ see `.gitignore`.
 ## Programme
 
 Built through GeoDev Lab Africa, Cohort 1.
-See `project-brief.md` for the initial project definition.
+See `docs/01-project-brief.md` for the initial project definition.
 
 ## Status
 
 Month 1, Week 3 — data reprojected, clipped, quality-checked and written out
 as an analysis-ready GeoPackage. Next: build the LGA adjacency list and count
 how often neighbouring LGAs carry different intervention mixes, starting with
-the ruling QUALITY-NOTE.md §4.1 leaves open — whether two LGAs facing each
+the ruling `docs/03-data-preparation.md` §4.1 leaves open — whether two LGAs facing each
 other across Lagos Lagoon count as neighbours.

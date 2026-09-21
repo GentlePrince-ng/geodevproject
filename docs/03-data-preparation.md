@@ -1,4 +1,4 @@
-# Quality note — Week 3
+# Data preparation — Week 3
 
 *Nigeria Malaria SNT Spatial Intelligence System. Written 20 September 2026.*
 
@@ -7,7 +7,7 @@ system, clipped them to an explicit study area, ran five quality checks, and
 wrote the result out as one analysis-ready GeoPackage.
 
 **Where the analysis-ready file lives:**
-[`data/processed/nga_snt_analysis_ready.gpkg`](data/processed/nga_snt_analysis_ready.gpkg)
+[`data/processed/nga_snt_analysis_ready.gpkg`](../data/processed/nga_snt_analysis_ready.gpkg)
 — 3.67 MB, committed, three layers, all in ESRI:102022.
 
 | Layer | Features | Geometry | Attributes |
@@ -17,9 +17,9 @@ wrote the result out as one analysis-ready GeoPackage.
 | `adm2_lga` | 774 | MultiPolygon | 26 |
 
 Everything below is produced by
-[`scripts/prepare_analysis_ready.py`](scripts/prepare_analysis_ready.py), which
+[`scripts/prepare_analysis_ready.py`](../scripts/prepare_analysis_ready.py), which
 also writes the machine-readable
-[`data/processed/qc_report.json`](data/processed/qc_report.json). Re-run it and
+[`data/processed/qc_report.json`](../data/processed/qc_report.json). Re-run it and
 every number on this page is regenerated:
 
 ```bash
@@ -214,7 +214,7 @@ Three entries, none blocking. All three are in `qc_report.json` under
 
 ### 4.1 Lagos Lagoon belongs to no LGA — **flagged, not filled**
 
-![The one gap in the LGA coverage](qgis/coverage_gap_lagos_lagoon.png)
+![The one gap in the LGA coverage](../qgis/coverage_gap_lagos_lagoon.png)
 
 **What was found.** The dissolved LGA coverage has exactly one interior hole:
 **183.246 km²** at 3.39–3.64 E, 6.46–6.60 N, ringed by seven Lagos LGAs — Epe,

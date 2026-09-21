@@ -7,7 +7,7 @@ Writes data/processed/nga_snt_analysis_ready.gpkg   (ESRI:102022)
 
 The working CRS is Africa Albers Equal Area Conic. Nigeria spans three UTM
 zones, so no single zone works nationally; Albers reproduces the geodesic area
-of every LGA to better than 0.03 per cent. See QUALITY-NOTE.md.
+of every LGA to better than 0.03 per cent. See docs/03-data-preparation.md.
 
 Run: python scripts/prepare_analysis_ready.py
 """
@@ -252,12 +252,12 @@ if overlaps:
     flag("QC4", "warning",
          f"{len(overlaps)} LGA pairs overlap above tolerance, largest"
          f" {overlaps[0]['overlap_km2']:.6f} km2",
-         "flagged, not dissolved - see QUALITY-NOTE.md")
+         "flagged, not dissolved - see docs/03-data-preparation.md")
 if gaps_over_tol:
     flag("QC4", "warning",
          f"{len(gaps_over_tol)} gaps in the LGA coverage,"
          f" largest {qc4['largest_hole_km2']:.6f} km2",
-         "flagged, not filled - see QUALITY-NOTE.md")
+         "flagged, not filled - see docs/03-data-preparation.md")
 qc["qc4_coverage_topology"] = qc4
 
 
