@@ -29,7 +29,7 @@ WANTED = {
     "cod-ab-nga": ["nga_admin_boundaries.shp.zip"],
     # The 2022 release is the current one but stops at admin 1. LGA-level
     # population only exists in the 2020 workbook, so both are fetched and
-    # the 2020 sheet is the one the build script reads. See DATA-NOTE.md.
+    # the 2020 sheet is the one the build script reads. See docs/02-data-notes.md.
     "cod-ps-nga": ["nga_admpop_2022.xlsx", "nga_admpop_2020.xlsx"],
 }
 

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Render the one coverage gap QC 4 found, for QUALITY-NOTE.md.
+"""Render the one coverage gap QC 4 found, for docs/03-data-preparation.md.
 
 Writes qgis/coverage_gap_lagos_lagoon.png
 

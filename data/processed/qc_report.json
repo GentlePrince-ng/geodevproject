@@ -141,7 +141,7 @@
       "check": "QC4",
       "severity": "warning",
       "detail": "1 gaps in the LGA coverage, largest 183.245812 km2",
-      "action": "flagged, not filled - see QUALITY-NOTE.md"
+      "action": "flagged, not filled - see docs/03-data-preparation.md"
     },
     {
       "check": "QC5",

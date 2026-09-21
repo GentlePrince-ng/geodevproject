@@ -29,7 +29,7 @@ All links were checked on **5 September 2026** and returned HTTP 200.
 
 All four datasets required by the primary question are now on the machine and
 joined. Per-dataset feature counts, columns, geometry and gaps are in
-[`DATA-NOTE.md`](../DATA-NOTE.md); `scripts/download_cod_data.py` re-fetches the
+[`02-data-notes.md`](02-data-notes.md); `scripts/download_cod_data.py` re-fetches the
 two COD files and prints their checksums.
 
 The NMSP PDF was confirmed byte-identical to the MESA copy by SHA-256
@@ -74,7 +74,7 @@ admin-2 **PCODEs**, and the NMSP intervention table has no codes at all — only
 names, some of them non-standard. The join key was the central technical
 problem of Month 2, so the boundary source was chosen for its identifiers, not
 just its geometry. That bet paid: 774 of 774 NMSP LGAs now carry a PCODE
-(see [`DATA-NOTE.md`](../DATA-NOTE.md) §4). The GRID3 operational boundaries also
+(see [`02-data-notes.md`](02-data-notes.md) §4). The GRID3 operational boundaries also
 carry 774 LGA records and remain the cross-check, not the base.
 
 ---
