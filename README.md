@@ -10,6 +10,12 @@ intervention assignments under subnational tailoring (SNT) in Nigeria.
 | 1 | **[`docs/01-project-brief.md`](docs/01-project-brief.md)** | The question, the study area, the data it needs, and what gets built |
 | 2 | **[`docs/02-data-notes.md`](docs/02-data-notes.md)** | Every dataset: source link, feature count, key columns, geometry type, and every gap found |
 | 3 | **[`docs/03-data-preparation.md`](docs/03-data-preparation.md)** | The working CRS and why, what was reprojected and clipped, the five quality checks, and the problems found |
+| 4 | **[`docs/04-spatial-analysis.md`](docs/04-spatial-analysis.md)** | The spatial operation, the expectation written before it ran, the four checks, the Lagos Lagoon ruling |
+| 4 | **[`docs/month-1-summary.md`](docs/month-1-summary.md)** | **Month 1 summary**: the question, the operation and why, expected against got, what surprised me, what data I still need |
+
+**Week 4 result:** [`qgis/mix_frontiers.png`](qgis/mix_frontiers.png), the
+530 borders where neighbouring LGAs are assigned different mixes, from
+[`data/processed/nga_snt_frontiers.gpkg`](data/processed/nga_snt_frontiers.gpkg).
 
 **Analysis-ready file:**
 [`data/processed/nga_snt_analysis_ready.gpkg`](data/processed/nga_snt_analysis_ready.gpkg)
@@ -72,6 +78,8 @@ The goal is a reproducible geospatial intelligence system, not a static map.
 │   ├── 01-project-brief.md           Week 1: question, study area, data, what gets built
 │   ├── 02-data-notes.md              Week 2: every dataset, its columns, its gaps
 │   ├── 03-data-preparation.md        Week 3: CRS, clip, five quality checks, problems
+│   ├── 04-spatial-analysis.md        Week 4: spatial join + intersection, four checks
+│   ├── month-1-summary.md            Month 1 summary
 │   ├── data-sources.md               Source register for every dataset claimed
 │   └── data-feasibility.md           Log of what was actually tested and found
 ├── scripts/
@@ -81,11 +89,15 @@ The goal is a reproducible geospatial intelligence system, not a static map.
 │   ├── build_admin_gpkg.py           Joins all three into the project GeoPackage
 │   ├── prepare_analysis_ready.py     Week 3: reproject, clip, five quality checks
 │   ├── plot_lagoon_gap.py            Renders the one coverage gap QC 4 found
+│   ├── find_mix_frontiers.py         Week 4: which LGAs touch, and where the mix changes
+│   ├── build_frontier_map.py         Week 4 map (needs the QGIS Python)
 │   ├── make_qml_styles.py            Writes the three QGIS styles
 │   ├── build_qgis_project.py         Rebuilds qgis/snt.qgz (needs the QGIS Python)
 │   └── build_qgis_layout.py          Adds the three-panel layout (needs the QGIS Python)
 ├── qgis/
-│   ├── snt.qgz                       QGIS project
+│   ├── snt.qgz                       QGIS project (Weeks 2-3)
+│   ├── frontiers.qgz                 QGIS project (Week 4), layout "Mix frontiers"
+│   ├── mix_frontiers.png             Week 4 map: the 530 mix frontiers
 │   ├── adm2_*.qml                    Three layer styles: the full mix, and each axis alone
 │   ├── three_axes.png                Three-panel figure: the mix, then each axis alone
 │   ├── coverage_gap_lagos_lagoon.png The 183 km² hole in the LGA coverage
@@ -95,7 +107,9 @@ The goal is a reproducible geospatial intelligence system, not a static map.
     └── processed/
         ├── nga_cod_admin.gpkg        Week 2, EPSG:4326 — the archival build
         ├── nga_snt_analysis_ready.gpkg   Week 3, ESRI:102022 — ANALYSIS-READY
-        └── qc_report.json            Every quality-check number, machine-readable
+        ├── qc_report.json            Every quality-check number, machine-readable
+        ├── nga_snt_frontiers.gpkg    Week 4: 2,210 shared LGA borders, 530 frontiers
+        └── frontier_checks.json      Week 4 check numbers
 ```
 
 ## Week 1 headline findings
@@ -231,6 +245,45 @@ QC 5  7/3/3/3/2 classes as expected; nulls only city (707) and Bakassi (1)
    and the sum of the 774 areas equals the dissolved coverage to three decimal
    places — nothing double-counted, nothing else unclaimed.
 
+## Finding the mix frontiers
+
+```bash
+python scripts/find_mix_frontiers.py
+"C:\Program Files\QGIS 3.40.4\bin\python-qgis-ltr.bat" scripts/build_frontier_map.py --export
+```
+
+Joins the LGA layer to itself to find every pair that touches, intersects each
+pair's boundaries to get the border they share, and flags the border as a
+frontier when the two mixes differ. Full reasoning and the four checks in
+[`docs/04-spatial-analysis.md`](docs/04-spatial-analysis.md). Expected output
+(abridged):
+
+```
+spatial join: 2220 pairs of LGAs that intersect
+  10 touch at a point only -> excluded
+  2210 share a border
+  frontier_pairs                           530
+  frontier_by_axis                         {'net type': 452, 'chemoprevention': 63, 'both': 15}
+  frontier_crossing_state_line             180
+```
+
+## Week 4 headline findings
+
+1. **530 of the 2,210 borders between neighbouring LGAs are frontiers**, where
+   the intervention mix changes (24%). 452 change the net type, 63 change the
+   chemoprevention, 15 change both.
+2. **Two-thirds of frontiers run inside states.** Kano alone has 47. The
+   SMC/IPTi line crosses the middle belt as one ragged line, and 62 of its 78
+   borders run through the middle of a state. Tailoring is drawn below the
+   state, not along state lines.
+3. **415 of 774 LGAs sit on at least one frontier.**
+4. **Albers is right for areas and wrong for lengths.** A border checked by
+   hand came out 1% long in Albers, and up to 6.8% on short borders. Lengths
+   are now geodesic.
+5. **Lagos Lagoon ruling: strict contiguity.** The four lagoon pairs are not
+   neighbours, because no source gives the water to an LGA. Counting them would
+   give 534 frontiers.
+
 ## Data ethics
 
 This repository contains only data derived from public documents. Restricted
@@ -244,8 +297,8 @@ See `docs/01-project-brief.md` for the initial project definition.
 
 ## Status
 
-Month 1, Week 3 — data reprojected, clipped, quality-checked and written out
-as an analysis-ready GeoPackage. Next: build the LGA adjacency list and count
-how often neighbouring LGAs carry different intervention mixes, starting with
-the ruling `docs/03-data-preparation.md` §4.1 leaves open — whether two LGAs facing each
-other across Lagos Lagoon count as neighbours.
+Month 1 complete. Week 4 ran the first spatial operation on the project's own
+data and answered the primary question at LGA level: 530 frontiers, mapped.
+Next: whether those frontiers follow differences in malaria burden (Question 2),
+which first needs burden data below state level. See
+[`docs/month-1-summary.md`](docs/month-1-summary.md#what-data-i-still-need).

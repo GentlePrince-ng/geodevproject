@@ -1,0 +1,35 @@
+{
+  "pairs_intersecting": 2220,
+  "pairs_point_only": 10,
+  "pairs_sharing_border": 2210,
+  "lgas_with_no_neighbour": [
+    "NG009005"
+  ],
+  "mean_neighbours_per_lga": 5.71,
+  "frontier_pairs": 530,
+  "frontier_share_pct": 24.0,
+  "frontier_by_axis": {
+    "net type": 452,
+    "chemoprevention": 63,
+    "both": 15
+  },
+  "frontier_crossing_state_line": 180,
+  "frontier_km_total": 13845.8,
+  "all_borders_km_total": 58415.8,
+  "albers_length_error_pct_total": 0.176,
+  "albers_length_error_pct_worst": 6.76,
+  "shared_km_median": 20.72,
+  "shared_km_min": 0.01,
+  "shared_km_max": 153.8,
+  "lgas_on_a_frontier": 415,
+  "borders_under_100m": 3,
+  "frontiers_under_100m": 0,
+  "empty_geometry": 0,
+  "null_geometry": 0,
+  "geometry_types": {
+    "LineString": 2178,
+    "MultiLineString": 32
+  },
+  "lagoon_frontier_pairs_found_by_join": 0,
+  "lagoon_frontier_pairs_expected_missing": 4
+}
