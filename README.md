@@ -19,7 +19,7 @@ intervention assignments under subnational tailoring (SNT) in Nigeria.
 - **The seasonal malaria chemoprevention line is one ragged frontier across
   the middle belt.** SMC in the north meets IPTi in the south along a line from
   the Benin border through Oyo, Kwara, Kogi, Benue and Taraba to Adamawa at the
-  Cameroon border. 62 of its 78 borders are inside a state.
+  Cameroon border. 50 of its 66 borders are inside a state.
 - **Most frontiers are about nets, not drugs.** 452 change the net type
   (standard, PBO or urban LLINs), 63 change the chemoprevention, 15 change both.
 - **415 of the 774 LGAs sit on at least one frontier.** Only **11 states** get
@@ -314,7 +314,7 @@ spatial join: 2220 pairs of LGAs that intersect
    the intervention mix changes (24%). 452 change the net type, 63 change the
    chemoprevention, 15 change both.
 2. **Two-thirds of frontiers run inside states.** Kano alone has 47. The
-   SMC/IPTi line crosses the middle belt as one ragged line, and 62 of its 78
+   SMC/IPTi line crosses the middle belt as one ragged line, and 50 of its 66
    borders run through the middle of a state. Tailoring is drawn below the
    state, not along state lines.
 3. **415 of 774 LGAs sit on at least one frontier.**

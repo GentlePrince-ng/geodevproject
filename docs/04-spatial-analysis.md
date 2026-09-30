@@ -144,10 +144,10 @@ ellipsoidal length. It should be 153.8 km.
    net-type frontier to follow state lines, on the assumption that PBO nets
    are assigned state by state from insecticide-resistance data. They are
    not. Kano alone has 47 frontiers inside its own borders, Kaduna 27 and Oyo
-   25. The chemoprevention line is even more internal: **62 of its 78 borders
+   25. The SMC/IPTi line is even more internal: **50 of its 66 borders
    run through the middle of a state**, splitting Oyo, Kwara, Kogi, Benue,
    Taraba and Adamawa. Subnational tailoring really is subnational. The
-   decisions are drawn below the state.
+   decisions are drawn below the state. (The other 12 of the 78 chemoprevention frontiers are Lagos: its five LGAs with no chemoprevention against IPTi around them.)
 2. **Most LGAs are on a frontier even though most borders are not.** Only 24%
    of borders are frontiers, but **415 of 774 LGAs (54%) have at least one**.
    The frontiers are spread thinly across many LGAs rather than packed into a
