@@ -55,7 +55,7 @@ The counts landed where I predicted. The pattern did not.
 1. **Two-thirds of frontiers run inside states, not along state lines.** I
    assumed net types were assigned state by state. They are not: Kano has 47
    frontiers inside its own borders. The SMC/IPTi line runs *through* Oyo,
-   Kwara, Kogi, Benue, Taraba and Adamawa: 62 of its 78 borders are inside a
+   Kwara, Kogi, Benue, Taraba and Adamawa: 50 of its 66 borders are inside a
    state. Tailoring is genuinely drawn below the state.
 2. **More than half the LGAs (415 of 774) sit on at least one frontier**,
    although only a quarter of borders are frontiers.
