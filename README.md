@@ -2,41 +2,82 @@
 
 A GeoDev Lab Africa Cohort 1 project mapping the geography of malaria
 intervention assignments under subnational tailoring (SNT) in Nigeria.
+**Month 1 is complete:** four weekly tasks, one question, one answer.
 
-## The weekly notes
+## The answer
 
-| Week | Note | What it records |
-|---|---|---|
-| 1 | **[`docs/01-project-brief.md`](docs/01-project-brief.md)** | The question, the study area, the data it needs, and what gets built |
-| 2 | **[`docs/02-data-notes.md`](docs/02-data-notes.md)** | Every dataset: source link, feature count, key columns, geometry type, and every gap found |
-| 3 | **[`docs/03-data-preparation.md`](docs/03-data-preparation.md)** | The working CRS and why, what was reprojected and clipped, the five quality checks, and the problems found |
-| 4 | **[`docs/04-spatial-analysis.md`](docs/04-spatial-analysis.md)** | The spatial operation, the expectation written before it ran, the four checks, the Lagos Lagoon ruling |
-| 4 | **[`docs/month-1-summary.md`](docs/month-1-summary.md)** | **Month 1 summary**: the question, the operation and why, expected against got, what surprised me, what data I still need |
+> **Question (Week 1):** Where in Nigeria does subnational tailoring actually
+> assign different malaria intervention mixes to neighbouring LGAs?
 
-**Week 4 result:** [`qgis/mix_frontiers.png`](qgis/mix_frontiers.png), the
-530 borders where neighbouring LGAs are assigned different mixes, from
-[`data/processed/nga_snt_frontiers.gpkg`](data/processed/nga_snt_frontiers.gpkg).
+**Answer (Week 4):** on **530 of the 2,210 borders** between neighbouring LGAs
+(24%), and mostly **inside states, not along state lines**.
 
-**Analysis-ready file:**
-[`data/processed/nga_snt_analysis_ready.gpkg`](data/processed/nga_snt_analysis_ready.gpkg)
-— three layers, 774 LGAs, ESRI:102022 (Africa Albers Equal Area), committed.
-Quality checks are machine-readable in
-[`data/processed/qc_report.json`](data/processed/qc_report.json).
+- **Two-thirds of the frontiers (350 of 530) run through the middle of a
+  state.** Kano alone has 47. Tailoring really is drawn below the state, so a
+  single state programme has to deliver different packages to LGAs that sit
+  next to each other.
+- **The seasonal malaria chemoprevention line is one ragged frontier across
+  the middle belt.** SMC in the north meets IPTi in the south along a line from
+  the Benin border through Oyo, Kwara, Kogi, Benue and Taraba to Adamawa at the
+  Cameroon border. 62 of its 78 borders are inside a state.
+- **Most frontiers are about nets, not drugs.** 452 change the net type
+  (standard, PBO or urban LLINs), 63 change the chemoprevention, 15 change both.
+- **415 of the 774 LGAs sit on at least one frontier.** Only **11 states** get
+  one mix throughout, and they are exactly the 11 with no internal frontier.
 
-## Research question
+![The 530 borders where neighbouring LGAs get different malaria intervention mixes](qgis/mix_frontiers.png)
 
-> **Where in Nigeria does subnational tailoring actually assign different
-> malaria intervention mixes to neighbouring LGAs?**
+*Map: [`qgis/mix_frontiers.png`](qgis/mix_frontiers.png). Data:
+[`data/processed/nga_snt_frontiers.gpkg`](data/processed/nga_snt_frontiers.gpkg),
+layer `lga_borders`, one line per shared border. How it was computed and
+checked: [`docs/04-spatial-analysis.md`](docs/04-spatial-analysis.md).*
 
-## Study area
+One ruling limits this answer. **Lagos Lagoon belongs to no LGA** in the
+official boundaries, so four pairs of Lagos LGAs facing each other across the
+water are not counted as neighbours. Counting them would give 534 frontiers.
 
-**Nigeria — 36 states and the FCT, at Local Government Area level: 774 LGAs.**
+## Month 1, week by week
 
-The LGA is the unit at which intervention packages are assigned under
-subnational tailoring, so it is the unit of analysis. The whole country is in
-scope because the question is comparative by construction — it is about where
-assignments differ between adjacent places — but every measurement is local,
-between an LGA and the LGAs it touches.
+Every week's work is linked here, with the commits that built it.
+
+| Week | Task | The note | What it produced | Commits |
+|---|---|---|---|---|
+| **1** | Project brief: question, study area, a source link for every dataset | [`docs/01-project-brief.md`](docs/01-project-brief.md) · [data needed, with links](docs/01-project-brief.md#the-data-i-need) | [`nmsp_2021_2025_lga_intervention_mix.csv`](data/processed/nmsp_2021_2025_lga_intervention_mix.csv): 774 LGAs from the NMSP annex · [`scripts/extract_nmsp_annex1.py`](scripts/extract_nmsp_annex1.py) · source register [`docs/data-sources.md`](docs/data-sources.md) · test log [`docs/data-feasibility.md`](docs/data-feasibility.md) | [`8c72b92`](https://github.com/GentlePrince-ng/geodevproject/commit/8c72b92) [`c9f6d62`](https://github.com/GentlePrince-ng/geodevproject/commit/c9f6d62) [`af281c7`](https://github.com/GentlePrince-ng/geodevproject/commit/af281c7) |
+| **2** | Data notes: what was downloaded and opened in QGIS | [`docs/02-data-notes.md`](docs/02-data-notes.md) | [`nga_cod_admin.gpkg`](data/processed/nga_cod_admin.gpkg): boundaries + mixes + population, 774/774 joined · [`nmsp_lga_name_crosswalk.csv`](data/processed/nmsp_lga_name_crosswalk.csv) · QGIS project [`qgis/snt.qgz`](qgis/snt.qgz) · map [`qgis/three_axes.png`](qgis/three_axes.png) | [`1d9b4a1`](https://github.com/GentlePrince-ng/geodevproject/commit/1d9b4a1) [`25f5048`](https://github.com/GentlePrince-ng/geodevproject/commit/25f5048) [`ef807bf`](https://github.com/GentlePrince-ng/geodevproject/commit/ef807bf) |
+| **3** | Prepared data and the quality checks run | [`docs/03-data-preparation.md`](docs/03-data-preparation.md) · [the five checks](docs/03-data-preparation.md#3-the-five-quality-checks) | **Analysis-ready** [`nga_snt_analysis_ready.gpkg`](data/processed/nga_snt_analysis_ready.gpkg) (ESRI:102022) · check results [`qc_report.json`](data/processed/qc_report.json) · [`scripts/prepare_analysis_ready.py`](scripts/prepare_analysis_ready.py) · figure [`coverage_gap_lagos_lagoon.png`](qgis/coverage_gap_lagos_lagoon.png) | [`d655482`](https://github.com/GentlePrince-ng/geodevproject/commit/d655482) [`cef5966`](https://github.com/GentlePrince-ng/geodevproject/commit/cef5966) |
+| **4** | Analysis, the map image, and the month summary | [`docs/04-spatial-analysis.md`](docs/04-spatial-analysis.md) · **[`docs/month-1-summary.md`](docs/month-1-summary.md)** | Map **[`qgis/mix_frontiers.png`](qgis/mix_frontiers.png)** · [`nga_snt_frontiers.gpkg`](data/processed/nga_snt_frontiers.gpkg) · checks [`frontier_checks.json`](data/processed/frontier_checks.json) · [`scripts/find_mix_frontiers.py`](scripts/find_mix_frontiers.py) · QGIS project [`qgis/frontiers.qgz`](qgis/frontiers.qgz) | [`24d44a5`](https://github.com/GentlePrince-ng/geodevproject/commit/24d44a5) (expectations, committed before the run) [`8ede1b0`](https://github.com/GentlePrince-ng/geodevproject/commit/8ede1b0) [`50cf6bf`](https://github.com/GentlePrince-ng/geodevproject/commit/50cf6bf) |
+
+## How the four weeks connect
+
+Each week's output is the next week's input, and each week made a decision
+that the later weeks depend on.
+
+1. **Week 1 set the question and got the hardest dataset first.** The
+   intervention mixes exist only as a 16-page table in Annex 1 of the National
+   Malaria Strategic Plan 2021–2025. Extracting it (774/774 rows) came first,
+   because nothing else matters without it. The 2025 malaria survey reports
+   only at state level, which ruled out a burden question at LGA level and
+   narrowed the brief to the geography of the mixes themselves.
+2. **Week 2 put those 774 rows on a map.** The NMSP table has names but no
+   codes, so the risk was the join to the official LGA boundaries. It holds
+   774/774 (746 exact, 12 by suffix, 16 by a hand-checked spelling table).
+   Styling the map showed that the seven mixes vary on only **two axes**, net
+   type and chemoprevention. Week 4 counts frontiers on those same two axes.
+3. **Week 3 made the layer fit to measure.** The data were reprojected to
+   Africa Albers Equal Area, because Nigeria spans three UTM zones, then
+   clipped and checked five ways. The coverage check found the **Lagos Lagoon
+   gap**, a hole that decides which LGAs count as neighbours. Week 3 flagged
+   it and Week 4 ruled on it.
+4. **Week 4 answered the question.** It joined the analysis-ready layer to
+   itself to find neighbours, then intersected their boundaries to get each
+   shared border. The expected results were committed *before* the run
+   ([`24d44a5`](https://github.com/GentlePrince-ng/geodevproject/commit/24d44a5)).
+   The counts came out as predicted but the pattern did not: I expected
+   frontiers to follow state lines, and two-thirds run inside states.
+
+**What comes next:** do the frontiers follow real differences in malaria
+burden (Question 2)? That needs burden data below state level. See
+[what data I still need](docs/month-1-summary.md#what-data-i-still-need).
 
 ## The data
 
@@ -297,8 +338,8 @@ See `docs/01-project-brief.md` for the initial project definition.
 
 ## Status
 
-Month 1 complete. Week 4 ran the first spatial operation on the project's own
-data and answered the primary question at LGA level: 530 frontiers, mapped.
-Next: whether those frontiers follow differences in malaria burden (Question 2),
-which first needs burden data below state level. See
+Month 1 complete: the primary question is answered at LGA level (see
+[The answer](#the-answer)). Next: whether those frontiers follow differences
+in malaria burden (Question 2), which first needs burden data below state
+level. See
 [`docs/month-1-summary.md`](docs/month-1-summary.md#what-data-i-still-need).

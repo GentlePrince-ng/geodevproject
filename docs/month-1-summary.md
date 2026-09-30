@@ -5,6 +5,15 @@
 **Where in Nigeria does subnational tailoring assign different malaria
 intervention mixes to neighbouring LGAs?**
 
+## The answer
+
+**On 530 of the 2,210 borders between neighbouring LGAs (24%), and mostly
+inside states rather than along state lines.** 350 of the 530 run through the
+middle of a state (Kano alone has 47). The chemoprevention frontier, where SMC
+meets IPTi, is one ragged line across the middle belt from Oyo to Adamawa. The
+net type changes on most frontiers (452), the chemoprevention on 63, and both
+on 15. 415 of the 774 LGAs sit on at least one frontier.
+
 ## The operation I ran, and why
 
 A **spatial join** of the 774-LGA layer to itself (`intersects`), followed by
