@@ -343,3 +343,7 @@ Month 1 complete: the primary question is answered at LGA level (see
 in malaria burden (Question 2), which first needs burden data below state
 level. See
 [`docs/month-1-summary.md`](docs/month-1-summary.md#what-data-i-still-need).
+
+## Month 2: development environment and early Python
+
+Week 5: set up Python, VS Code and the terminal. hello.py runs.
