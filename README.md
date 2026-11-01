@@ -353,3 +353,9 @@ Week 6: set up the project with uv and added pandas. check.py prints the pandas 
 Week 7: analyse.py reads wards.csv, converts each area and classifies each ward.
 
 Week 8: inspect_data.py summarises population density and area in my Nigeria LGA malaria SNT data (nga_lga_snt.csv, 774 LGAs).
+
+Week 9: summary.py refactors inspect_data.py into three functions, and summarise_all summarises four number columns of my Nigeria LGA malaria SNT data (nga_lga_snt.csv).
+
+### Month 2 reflection
+
+It has been an amazing journey, especially seeing how GIS connects to the public health work I do, and the project is really coming to life. Over the past two months I have been able to identify the 530 borders where neighbouring LGAs receive different malaria intervention mixes, and this month I learned to write the Python that reads and checks that data myself. The idea that finally clicked is the difference between print and return: a function should hand back a value, and printing belongs only where you call it. What is still fuzzy is how a uv project keeps its own environment separate from the Python installed on my machine. The capstone shows that 773 of my 774 LGAs have population data (Bakassi is blank), and that LGA population ranges from about 36,000 in Ogori/Magongo to 3.5 million in Alimosho, nearly 100 times apart.
