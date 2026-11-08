@@ -3,6 +3,19 @@
 data/raw/*
 !data/raw/README.md
 
+# Month 3 teaching data (small CSVs) is committed so the grader can run the
+# guided scripts. Its rasters are not: see the Month 3 block below.
+!data/raw/ward_population.csv
+!data/raw/health_facilities.csv
+!data/raw/lga_facilities/
+
+# Month 3 setup guide: rasters and archives stay on the laptop and are
+# described in the data notes instead.
+*.tif
+*.TIF
+*.zip
+.vscode/
+
 # Never commit restricted survey microdata or NHW project data
 data/restricted/
 *.DTA
