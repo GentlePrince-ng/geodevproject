@@ -1,5 +1,10 @@
 # Data notes
 
+**Measuring CRS:** EPSG:32632 (WGS 84 / UTM zone 32N) for Kano, which lies
+wholly in that zone. For national work across all 774 LGAs: ESRI:102022
+(Africa Albers Equal Area), because Nigeria spans UTM zones 31N–33N. Data is
+stored in EPSG:4326 as downloaded.
+
 Every dataset this project uses, where it comes from and what is wrong with
 it. The full Week 2 notes, with feature counts, key columns and the
 name-matching work, are in [`docs/02-data-notes.md`](docs/02-data-notes.md).

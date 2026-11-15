@@ -363,3 +363,4 @@ It has been an amazing journey, especially seeing how GIS connects to the public
 ## Month 3: geospatial Python and automation
 
 - Week 10: GeoPandas. Loaded, checked, joined and mapped my Nigeria LGA layer (774 LGAs, `adm2_lga`) in code.
+- Week 11: CRS and spatial operations. Reprojected to EPSG:32632 and measured facilities per LGA and the share of each Kano LGA more than 5 km from a health facility (5.9% of Kano).
