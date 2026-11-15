@@ -36,7 +36,7 @@ full: [`docs/04-spatial-analysis.md`](04-spatial-analysis.md).
 ## What I expected, and what I got
 
 I wrote the expectations down and committed them before running anything
-(commit `24d44a5`).
+(commit `c0c01f8`).
 
 | | Expected | Got |
 |---|---|---|
