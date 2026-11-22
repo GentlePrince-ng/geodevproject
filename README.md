@@ -364,3 +364,4 @@ It has been an amazing journey, especially seeing how GIS connects to the public
 
 - Week 10: GeoPandas. Loaded, checked, joined and mapped my Nigeria LGA layer (774 LGAs, `adm2_lga`) in code.
 - Week 11: CRS and spatial operations. Reprojected to EPSG:32632 and measured facilities per LGA and the share of each Kano LGA more than 5 km from a health facility (5.9% of Kano).
+- Week 12: Rasters. Computed dry-season NDVI (Landsat 9, 7 January 2026) for Kano State and summarised it per LGA.

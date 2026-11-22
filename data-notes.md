@@ -21,6 +21,15 @@ The Week 3 preparation and quality checks are in
 | LGA population 2020, OCHA COD-PS | [HDX cod-ps-nga](https://data.humdata.org/dataset/cod-ps-nga) | Joined into the analysis-ready layer | Bakassi has a boundary but no population |
 | Health facilities, GRID3 NGA v3.0 | [HDX grid3-nga-health-facilities-v3-0](https://data.humdata.org/dataset/grid3-nga-health-facilities-v3-0), last modified 27 Aug 2026 | National file (41,778 facilities, 33.5 MB, SHA-256 `db66a553…`) **not committed**; Kano extract `data/processed/grid3_kano_facilities.csv` (2,124 rows) and `.gpkg` (1,858 points) committed | 6,004 facilities nationally have no point geometry, and 266 Kano rows have no coordinates. One Kano record has its latitude copied into its longitude (Makkha Eye Hospital) |
 
+## Project rasters (Week 12, not committed)
+
+Both stay on the laptop. `.gitignore` excludes `*.tif` and `*.TIF`.
+
+| Raster | Source | Details | Known problems |
+|---|---|---|---|
+| Landsat 9 surface reflectance, bands 4 and 5: `data/raw/landsat/LC09_L2SP_188052_20260107_20260108_02_T1_SR_B4.TIF` and `..._SR_B5.TIF` | USGS Landsat Collection 2 Level-2 (product "Landsat 8-9 OLI/TIRS C2 L2"). Downloaded on 22 Nov 2026 from the [Microsoft Planetary Computer copy](https://planetarycomputer.microsoft.com/dataset/landsat-c2-l2) of the USGS archive, which has the same files and file names as [EarthExplorer](https://earthexplorer.usgs.gov/) and needs no login | Path 188 row 052, **acquired 7 Jan 2026**, processed 8 Jan 2026, Tier 1. **Cloud cover 0%** (scene and land). EPSG:32632, 30 m, 7,591 × 7,741 cells, uint16, nodata 0. B4 93.0 MB, SHA-256 `c406fb2e…`; B5 93.4 MB, SHA-256 `bde8173d…` | The scene covers 30 of Kano's 44 LGAs fully and misses Rogo, Gwarzo, Shanono and Tsanyawa. 21 cells fall outside the USGS valid range (7,273–43,636) and are masked |
+| Copernicus DEM GLO-30, tile N11 E008: `data/raw/Copernicus_DSM_COG_10_N11_00_E008_00_DEM.tif` | ESA Copernicus DEM, 30 m. Downloaded on 22 Nov 2026 from the [AWS Open Data copy](https://registry.opendata.aws/copernicus-dem/) (the same product OpenTopography serves) | 1° × 1° tile, 8–9° E, 11–12° N, which holds Kano city. EPSG:4326, 3,600 × 3,600 cells of 0.000278°, float32, no nodata value set. 38.6 MB, SHA-256 `00ad81e5…` | One tile covers only the middle of Kano. Its pixels are in degrees, so it is not suitable for slope without reprojecting. Used for inspection only this week |
+
 ## Month 3 teaching data
 
 `GeoDev_Lab_Month3_Starter_Data.zip` from Google Classroom, Month 03
